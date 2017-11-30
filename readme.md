@@ -1,3 +1,5 @@
+<b>CoinHealth Code Conversion Phase - Decentralizing EHR</b>
+
 <b>CoinHealth</b> has acquired codes to develop a more efficient and collaborative healthcare community by harnessing the power of blockchain technology and decentralized applications. All codes on beta platform consists of Patient Profile, Team Builder, Appointment setter and Provider Feedback and Directory will be re-written in C++ and converted into a one-stop shop CoinHealth EHR platform.
 
 <b>Project Development Phases</b>
