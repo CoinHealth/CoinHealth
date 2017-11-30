@@ -1,0 +1,306 @@
+@import 'app.scss';
+
+#gamification {
+	.mt-100 {
+		margin-top: 100px;
+	}
+
+}
+
+#modal-gamification {
+
+	.modal-dialog {
+		width: 35%;
+		height:aut0;
+	}
+
+	.modal-content {
+		//height: 60%;
+		text-align: center;
+		background: $steelblue;
+		color: $white;
+		font-family: $futura;
+		text-align: center;
+		border: none;
+
+		.modal-header {
+			border-bottom: none;
+			.icon {
+				width: 20%;
+				height: auto;
+			}
+		}
+
+		.modal-body {
+			.points {
+				font-size: 110px;
+			    font-weight: 600;
+			    letter-spacing: 5px;
+		        line-height: 75px;
+			}
+
+			.lbl-points {
+				font-size: 50px;
+    			font-weight: 600;
+			}
+
+			.points-desc {
+				font-family: $opensans;
+			    line-height: 0px;
+    			padding-bottom: 30px;
+			}
+
+			.msg {
+				font-family: $opensans;
+
+			}
+
+			.btn-orange {
+				width: 107%;
+			    background-color: $orange;
+			    border: none;
+			    padding: 10px;
+			    margin: 20px -30px;
+				font-family: $opensans;
+			    font-size: large;
+    			font-weight: bold;
+			}
+
+
+
+		}
+
+	}
+
+
+	@media screen and (max-width: 768px) {
+
+		.modal-dialog {
+			width: 100% !important;
+		}
+
+		.icon {
+			 width: 15% !important;
+
+		}
+
+		.points {
+		    font-size: 70px !important;
+		}
+
+		.lbl-points {
+		    font-size: 35px !important;
+	        line-height: 20px !important;
+		}
+
+		.points-desc, 
+		.msg {
+			font-size: 13px !important;
+		}
+
+		.btn-orange {
+		    width: 113% !important;
+		    font-size: smaller;
+		}
+	}
+
+	@media screen and (max-width: 640px) {
+		.btn-orange {
+			width: 105% !important;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.icon {
+			 width: 30% !important;
+		}
+
+		.points {
+		    font-size: 50px !important;
+		}
+
+		.lbl-points {
+		    font-size: 25px !important;
+	        line-height: 0px !important;
+		}
+
+		.points-desc, 
+		.msg {
+			font-size: 11px !important;
+	        line-height: 20px !important;
+
+		}
+
+		.btn-orange {
+			width: 107% !important;
+			padding: 5px;
+			font-size: small;
+		}
+	}
+}
+
+#modal-questions {
+
+	.modal-dialog {
+		width: 35%;
+		height:aut0;
+	}
+
+	.modal-content {
+		//height: 60%;
+		text-align: center;
+		background: $steelblue;
+		color: $white;
+		font-family: $futura;
+		text-align: center;
+		border: none;
+
+		.modal-header {
+			border-bottom: none;
+			.icon {
+				width: 20%;
+				height: auto;
+			}
+			.modal-title {
+			    font-size: 24px;
+			}
+		}
+
+		.modal-body {
+			padding-bottom: 0px;
+			.choice-wrapper {
+				.choice-template {
+					font-size: 20px;
+				    padding: 5px 0px;
+				    border-top: 1px solid $nightblue;
+				    border-bottom: 1px solid $nightblue;
+
+				    &:hover {
+				    	background-color: $orange;
+				    }
+
+				    &.right {
+				    	background-color: $orange;
+				    }
+
+				    &.wrong {
+				    	background-color: $mediumgrey;
+				    }
+				}
+
+			}
+
+		}
+
+		.modal-footer {
+			background-color: $white-2 !important;
+			text-align: center;
+			color: $mediumgrey;
+			font-family: $opensans;
+			.answer {
+				color: $darkgrey;
+				font-size: 24px;
+				font-weight: 900;
+			}
+
+			.trivia-wrapper {
+				font-size: 12px;
+
+				.tips {
+					font-weight: 600;
+				}
+			}
+		}
+
+	}
+
+
+	@media screen and (max-width: 768px) {
+
+		.modal-dialog {
+			width: 100% !important;
+		}
+
+		.icon {
+			 width: 15% !important;
+
+		}
+		
+	}
+
+	@media screen and (max-width: 480px) {
+		.icon {
+			 width: 30% !important;
+		}
+		
+	}
+}
+
+// https://codepen.io/elevaunt/pen/JYRBzJ
+
+svg {
+  width: 50px;
+  display: block;
+  margin: 0px auto 0;
+
+}
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  &.circle {
+    -webkit-animation: dash .9s ease-in-out;
+    animation: dash .9s ease-in-out;
+  }
+  &.line {
+    stroke-dashoffset: 1000;
+    -webkit-animation: dash .9s .35s ease-in-out forwards;
+    animation: dash .9s .35s ease-in-out forwards;
+  }
+  &.check {
+    stroke-dashoffset: -100;
+    -webkit-animation: dash-check .9s .35s ease-in-out forwards;
+    animation: dash-check .9s .35s ease-in-out forwards;
+  }
+}
+
+
+
+@-webkit-keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+@keyframes dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+
+

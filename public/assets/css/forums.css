@@ -1,0 +1,346 @@
+@import "/assets/fonts/NotoSans/stylesheet.css";
+body, html {
+  height: 100vh;
+}
+body {
+  font-family: "NotoSans-Regular" !important;
+}
+.container-fluid, .wrapper {
+  height: 100%;
+}
+.container-fluid {
+  background-image: url(/assets/icons/forums/bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size:100%;
+}
+.tinymce {
+  min-height: 70px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.tinymce p {
+  margin-bottom: 5px;
+}
+input[type=text] {
+  transition: .3s box-shadow linear;
+}
+input[type=text]:focus {
+  box-shadow: 0 0 6pt 1pt #00a892;
+  outline-color: transparent;
+}
+.share-forms .share-cb label {
+  font-weight: 100;
+}
+.resize-v {
+  resize: vertical;
+}
+.forum-header {
+  background-color: #00a892;
+  border-color: #009884;
+}
+.forum-header > .container {
+  width: 100%;
+}
+.forum-header a {
+  color: white;
+}
+.forum-header .navbar-brand {
+  padding: 15px !important;
+  margin: 0 !important;
+  font-size: 22px;
+}
+#navbar > a .navbar-logo {
+  height: 40px;
+  margin: 5px;
+}
+#navbar > a .nav-text {
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+.avatar-nav {
+  height: 40px;
+  margin: 5px;
+}
+.navbar-user-container > *{
+  display: inline-block;
+  color: white;
+}
+.navbar-user-container > .wrapper-left {
+  vertical-align: middle;
+  text-align: right;
+}
+.navbar-user-container > .wrapper-left > p{
+  margin: 0 !important;
+}
+.navbar-user-container .navbar-auth {
+  font-size: 12px;
+  font-style: italic;
+}
+.navbar-user-container .navbar-user {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.wrapper {
+  background-color: rgba(255, 255, 255, .9);
+}
+.disclaimer {
+  font-size: 12px;
+  font-family: "NotoSans-Regular";
+}
+
+/* inner */
+.btn-new-thread {
+  margin: 20px 0 0 0;
+}
+.btn-green:hover {
+  background: #009884;
+  color: white;
+}
+.btn-green {
+  background-color: #00a892;
+  border-color: #009884;
+  color: white;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  font-size: 12px;
+}
+.search-container {
+  margin-top: 70px;
+}
+.search-container > *{
+  vertical-align: middle;
+}
+.search-container > .search-input {
+  background-color: #ececec;
+  -webkit-box-shadow: inset 1px 1px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 1px 1px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: inset 1px 1px 10px 0px rgba(0,0,0,0.2);
+  width: 400px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  border-radius: 50px;
+  border: none;
+  font-family: "NotoSans-Bold";
+}
+.search-container > .search-submit {
+  font-size: 30px;
+  color: black;
+}
+.topics-container .topics {
+  padding: 10px;
+}
+.topics > a > img {
+  display: inline-block;
+  height: 125px;
+  margin: auto;
+}
+.topics > a:hover {
+  text-decoration: none;
+}
+.topics > a > h2 {
+  color: black;
+  font-family: "NotoSans-Bold";
+}
+
+.topics > .topic-labels {
+  font-size: 14px;
+  font-family: "NotoSans-Regular";
+}
+.topics > .topic-labels > span:first-child:after{
+  content: " | ";
+}
+
+/* inner topic */
+.topic-header {
+  font-family: "NotoSans-Bold";
+  color: #444444;
+}
+.pages-wrapper .pagination {
+  display: inline-block;
+  margin: 0 !important;
+  vertical-align: middle;
+}
+.pages-wrapper .pagination > li > * {
+  background: #a0a0a0;
+  color: white;
+  padding: 5px 8px;
+  line-height: 1;
+}
+.pages-wrapper .pagination > li.active > * {
+  background-color: #34b2ff !important;
+  border-color:transparent !important;
+}
+
+.thread-list-wrapper > .list-title {
+  font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.thread-list-wrapper > .list-labels {
+  font-size: 12px;
+}
+.thread-list-wrapper > .list-labels > span:not(:first-child) {
+  margin-left: 30px;
+}
+.thread-list-wrapper > .list-labels .started-by a {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.leaderboard {
+  background: #d0d0d0;
+}
+.leaderboard .leaderboard-content {
+  padding: 10px;
+}
+.leaderboard .leaderboard-header {
+  padding: 10px;
+}
+.leaderboard .leaderboard-header  h1 {
+  font-family: "NotoSans-Bold";
+}
+.leaderboard .top {
+  border-bottom: 1px solid #e6e6e6;
+}
+.leaderboard .top img{
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 0;
+}
+.leaderboard .top .top-avatar {
+  font-size: 18px;
+  color: #019fff;
+}
+.leaderboard .top .top-name {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1px;
+  text-transform: uppercase;
+}
+.leaderboard .top .top-count {
+  display: block;
+  text-align: center;
+}
+.leaderboard .leaderboard-user-row {
+  margin: 5px 0;
+  padding: 3px 0;
+}
+.leaderboard .leaderboard-user-row .list-user p {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.leaderboard .leaderboard-user-row .list-user em {
+  margin-left: 40px;
+}
+.leaderboard .leaderboard-user-row img {
+  text-align: center;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* threads */
+.thread-content-container {
+  background-color: #e3e3e3;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+  z-index: 999;
+  min-height: 200px;
+  max-height: inherit;
+}
+.thread-content-container .thread-title {
+  text-transform: uppercase;
+  font-family: "NotoSans-Bold";
+  color: #444444;
+}
+.thread-header-row {
+  padding: 10px 15px;
+}
+.thread-labels {
+  font-size: 12px;
+}
+.post-container {
+  background-color: #e3e3e3;
+  padding: 10px 30px;
+  max-height: 600px;
+  overflow-y: auto;
+}
+.post-container > .post-wrapper {
+  margin-bottom: 15px;
+  border-left: 5px solid white;
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+.post-container > .post-wrapper small {
+  font-size: 10px;
+}
+
+.post-container > .post-wrapper > .post-user {
+  text-transform: capitalize;
+  /*font-weight: bold;*/
+}
+.post-container > .post-wrapper > .post-message {
+}
+
+.comment-container #message {
+  font-family: "NotoSans-Italic";
+  height: 100px;
+}
+textarea {
+  font-size: 12px !important;
+}
+.btn-reply {
+  font-size: 12px;
+}
+.replies-container {
+  margin-left: 15px;
+  padding: 10px 10px 10px 0;
+  border-left: 5px solid white;
+  padding-left: 15px;
+}
+.replies-container .reply-wrapper > blockquote {
+  font-size: 14px;
+}
+.replies-container .reply-wrapper > .reply-user {
+  text-transform: capitalize;
+  /*font-weight: 600;*/
+}
+.replies-container .reply-wrapper > .reply-message {
+  margin-left: 5px;
+}
+.replies-container .reply-wrapper > .reply-message > small {
+  font-size: 80%;
+  display: block;
+}
+

@@ -1,0 +1,524 @@
+.calendar-upper {
+	background: url(/assets/icons/resources.jpg) no-repeat; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-position: 100% 10%;
+  	width: 100%;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+}
+
+.main-header {
+	position:fixed;
+	height: auto;
+	width: 100%;
+	z-index:9;
+	top: 0;
+}
+.main-header .main-cp-icon {
+	height: 45px;
+	padding: 2px;
+	background: rgba(255,255,255,0.8);
+}
+.main-header .main-cp-icon img{
+	margin: auto;
+	max-height: 100%;
+}
+
+.title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.date-div {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 23px;
+	color: #fff;
+}
+
+.date-div .date {
+	color: #fff200;
+	font-weight: 400;
+	font-size: 35px;
+	margin-right: 30px;
+}
+
+.date-div .arrow {
+	font-weight: 700;
+	font-size: 35px;
+	margin-right: 10px;
+}
+
+.date-div .whole-date {
+	font-weight: 700;
+	color: #fff200;
+}
+
+.info {
+	color: #fff;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+.calendar-bottom {
+	background: #ff9d28;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bottom-title {
+	color: #2c2c2c;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.bottom-title span {
+	color: #fff;
+}
+
+table {
+	border-radius: 5px;
+}
+
+thead {
+	background: #fff;
+}
+
+thead.top tr th {
+	text-align: center;
+	font-weight: 700;
+	font-family: 'Arial', sans-serif;
+	font-size: 25px;
+}
+
+thead.month tr th {
+	text-align: center;
+	font-weight: 400;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+}
+
+tbody tr td {
+	background: #96a0aa;
+}
+
+.colspan-data {
+	background: #00ffde;
+	text-align: center;
+}
+
+.colspan-data p {
+	color: #2c2c2c;
+	font-weight: 700;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 10px;
+	line-height: 1.2em;
+}
+
+.colspan-data p span {
+	color: #ff1e00;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+.bottom-cal {
+	text-align: center;
+}
+
+.link-p {
+	color: #fff;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.link-p a {
+	color: #0036ff;
+}
+
+/***loss health ****/
+.loss-health-container {
+	background: url(/assets/icons/resource2.png) no-repeat; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover !important;
+  	width: 100%;
+  	height: 100vh;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+  	background-position: center left;
+}
+
+
+
+.loss-title {
+	text-align: center;
+}
+
+.loss-title .p-subtitle {
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+.loss-title .p-title {
+	color: #ff931d;
+	font-family: Impact, sans-serif;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.btn-div-loss {
+	text-align: center;
+}
+
+.a-loss-5, .a-loss-4, .a-loss-3, .a-loss-2, .a-loss-1  {
+	color: #009cff;
+	/*background: #c6c6c6;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 300px;
+	display: inline-block;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	/*border-radius: 5px;*/
+	margin-bottom: 20px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.a-loss-1:hover, .a-loss-2:hover, .a-loss-3:hover, .a-loss-4:hover, .a-loss-5:hover {
+	text-decoration: none;
+	/*background: #000;*/
+	color: #000;
+}
+
+.a-loss-1:focus, .a-loss-2:focus, .a-loss-3:focus, .a-loss-4:focus, .a-loss-5:focus {
+	text-decoration: none;
+	color: #000;
+}
+
+.btn-loss .btn-close {
+	color: #000;
+	background: #cdcdcd;
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-weight: 700;
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+	margin-left: 10px;
+	display: none;
+}
+
+.btn-loss .btn-close:hover, .btn-loss .btn-close:focus {
+	text-decoration: none;
+}
+
+.cp-col {
+	text-align: center;
+	margin-bottom: 20px;
+} 
+
+.btn-row-2 img {
+	width: 300px;
+}
+
+.btn-row-loss-5 {
+	display: none;
+}
+
+.btn-row-loss-4 {
+	display: none;
+}
+
+.btn-row-loss-3 {
+	display: none;
+}
+
+.btn-row-loss-2 {
+	display: none;
+}
+
+.btn-row-loss-1 {
+	display: none;
+}
+.btn-row-loss ul {
+	margin-left: 0px;
+}
+
+.btn-row-loss ul li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #313131;
+}
+
+.btn-row-loss p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #313131;
+}
+
+.btn-row-loss .p-loss {
+	font-size: 20px;
+}
+
+.btn-row-loss span {
+	font-weight: 700;
+}
+
+.bg-yellow {
+	background: #ff931d;
+	color: #fff;
+}
+
+.row-nav {
+	position: relative;
+}
+
+.row-nav a:hover {
+	text-decoration: none;
+}
+
+.row-nav .divider {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+}
+
+.row-nav .back {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ff931d;
+}
+
+.row-nav .next {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #003a85;
+}
+
+.slider-nav {
+	/*position: absolute;
+    bottom: -75px;
+    right: 95px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.slider-nav img {
+	width: 30px;
+}
+
+.back-a {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.back-a a {
+	font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff931d;
+}
+
+.back-a-blue {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.back-a-blue a {
+	font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #00ffde;
+}
+
+.back-a-blue img {
+	width: 30px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.cp-logo {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media screen and (min-width: 992px) {
+	.btn-row-2 {
+		display: none;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 991px) {
+	.calendar-upper {
+		background: #fc7263;
+		background-size: cover;
+		text-align: center;
+	}
+
+	#no-more-tables {
+		display: none;
+	}
+
+	.bottom-title {
+		display: none;
+	}
+
+	.loss-health-container {
+		background: #fff;
+	}
+
+	.btn-row {
+		display: none;
+	}
+
+	.loss-title .p-subtitle {
+		margin-top: 120px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	.calendar-upper {
+		height: 839px;
+		padding-top: 180px;
+	}
+
+	.title {
+		font-size: 45px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+    
+
+	/*#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+ 
+	#no-more-tables tr { border: 1px solid #ccc; }
+ 
+	#no-more-tables td { 
+	
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		white-space: normal;
+		text-align:left;
+	}
+ 
+	#no-more-tables td:before { 
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+
+	tbody tr td {
+		background: none;
+		color: #000;
+		font-size: 18px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.table-bordered {
+		border: none;
+	}
+ 
+
+	#no-more-tables td:before { content: attr(data-title); }*/
+}
+
+@media screen and (max-width: 480px) {
+	.btn-loss a {
+		width: 100%;
+	}
+
+	.btn-row-loss {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.btn-loss .btn-close {
+		margin-left: 0px;
+	}
+
+	.link-p a {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.date-div {
+		font-size: 16px;
+	}
+
+	.date-div .date {
+		font-size: 26px !important;
+	}
+
+	.info {
+		font-size: 25px;
+	}
+
+	.bottom-title {
+		font-size: 25px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.date-div {
+	    font-size: 13px !important;
+	}
+	
+	.date-div .date {
+		font-size: 13px !important;
+	}
+}

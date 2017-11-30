@@ -1,0 +1,100 @@
+@import url(/assets/fonts/Raleway/stylesheet.css);
+
+.icon-containers > .icon-wrapper {
+	float: left;
+	width: 14.28571428571429%;
+	padding: 0 10px;
+	margin: 20px 40px
+}
+
+.form-containers > .icon-wrapper {
+	float: left;
+	width: 14.28571428571429%;
+	padding: 0 10px;
+	margin: 10px 40px;
+}
+.icon-containers > .icon-wrapper .inner,
+.form-containers > .icon-wrapper .inner {
+	background-color: #a9a9a9;
+	border-radius: 6px;
+	padding: 3px;
+	height: 110px;
+	width: 150%;
+	cursor: pointer;
+	transition: all .3 linear;
+}
+.icon-containers > .icon-wrapper .inner.active,
+.form-containers > .icon-wrapper .inner.active {
+	background-color: #ff8a00;
+}
+.icon-containers > .icon-wrapper .inner > p,
+.form-containers > .icon-wrapper .inner > p {
+	margin: 0;
+	font-size: 12px;
+	line-height: 1;
+	font-family: "Raleway-Bold";
+	color: white;
+}
+.icon-containers > .icon-wrapper .inner > img,
+.form-containers > .icon-wrapper .inner > img {
+	height: 80px;
+	margin: 0 auto;
+
+}
+
+.event-button {
+	float: right;
+}
+
+.icon-containers > .icon-wrapper .inner .active,
+.form-containers > .icon-wrapper .inner .active {
+	background-color: #ff8a00;
+}
+
+.wrap {
+	border: 1px solid #ff8a00;
+	margin: 12px 10px;
+	margin-left: 40px !important;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.applicant-circumstances {
+	font-weight: bolder;
+	color: black;
+	/*font-size: 16px;*/
+}
+
+.add-applicant {
+	float: right;
+}
+
+.cloned {
+	display: block !important;
+	padding: 20px 0px;
+	border-bottom: 1px solid #ff8a00;
+}
+
+.wrap .cloned:last-child {
+	border-bottom: none;
+}
+
+.select2-hidden-accessible {
+	width: 100px !important;
+}
+
+.select2 {
+	width: 100% !important;
+}
+
+.date-dropdowns span.select2 {
+	width: 33.33333333333333% !important;
+}
+
+.citizen-title {
+	font-size: 12px;
+}
+
+/*.btn-close {
+	display: none;
+}*/

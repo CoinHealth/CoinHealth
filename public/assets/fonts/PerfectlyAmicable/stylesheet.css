@@ -1,0 +1,9 @@
+﻿@font-face {
+    font-family: 'Perfectly-Amicable';
+    src:url('perfectly-amicable.ttf.woff') format('woff'),
+        url('perfectly-amicable.ttf.svg#perfectly-amicable') format('svg'),
+        url('perfectly-amicable.ttf.eot'),
+        url('perfectly-amicable.ttf.eot?#iefix') format('embedded-opentype');
+        font-weight: normal;
+        font-style: normal;
+}

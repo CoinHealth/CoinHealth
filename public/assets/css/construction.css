@@ -1,0 +1,43 @@
+.underconstruction-container {
+	background: #80ecff;
+	height: 100vh;
+	width: 100%;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.first-col {
+	margin-top: 120px;
+}
+
+.first-col img {
+	width: 80px;
+}
+
+.first-col p {
+	color: #444444;
+	font-size:30px;
+	font-weight: 500;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20px;
+}
+
+.btn-warning {
+	margin-top: 10px;
+}
+
+.second-col {
+	margin-top: 100px;
+}
+
+.second-col img {
+	width: 80%;
+}
+
+@media screen and (max-width: 991px) {
+	.second-col img {
+		display: none;
+	}
+}

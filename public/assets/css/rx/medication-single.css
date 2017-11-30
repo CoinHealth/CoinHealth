@@ -1,0 +1,112 @@
+#medications-single .first-row {
+	background: #8b37d7;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.no-padding {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+#medications-single .title {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#medications-single .subtitle {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#medications-single .desc-row {
+	background: #1087b2;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#medications-single .med-title {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+#medications-single .med-desc {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#medications-single .med-title-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+}
+
+#medications-single .med-desc-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#medications-single .se-row {
+	background: #dff7fe;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.disclaimer {
+	color: #555;
+	margin-bottom: 50px;
+	font-size: 9px;
+}
+hr {
+	border-bottom: 1px solid #000;
+}
+
+.btn-yellow {
+	background: #ffa200;
+	border-radius: 5px;
+	color: #023882;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	padding: 15px 25px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-yellow:hover, .btn-yellow:focus {
+	background: #000;
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+@media screen and (max-width: 480px) {
+	.img-med {
+		width: 30%;
+	}
+}

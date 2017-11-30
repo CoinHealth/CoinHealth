@@ -1,0 +1,96 @@
+@import url(/assets/fonts/Futura/stylesheet.css);
+@import url(/assets/fonts/OpenSans/stylesheet.css);
+
+.text-center {
+	text-align: center;
+}
+
+.terms-container {
+	background: #d9dada;
+	height: 100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 50px;
+}
+
+.terms-container .title {
+	color: #444;
+	font-family: 'Futura Md BT', sans-serif;
+	font-weight: 500;
+	font-size: 22px;
+	padding-top: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.terms-container .subtitle {
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.terms-container .content {
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.terms-container ul li {
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.div-agreement {
+	margin-top: 30px;
+}
+
+.div-agreement .btn-agree {
+	background: #fff;
+    border-radius: 5px;
+    color: #023680;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 35px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.div-agreement .btn-agree:hover,  .div-agreement .btn-agree:focus{
+	background: #e05d08;
+	color: #fff;
+	text-decoration: none;
+}
+
+.slide-btn {
+	color: #fff;
+	position: fixed;
+    right: 15px;
+    bottom: 12px;
+    z-index: 999;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background: #e05d08;
+    border: 1px solid #9c4003;
+    cursor: pointer;
+}
+
+.slide-btn:hover, .slide-btn:focus {
+	color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+	.div-agreement .btn-agree {
+		width: 100%;
+		font-size: 12px;
+		display: block;
+	}
+}
+

@@ -1,0 +1,278 @@
+@import '../partials/effects';
+#patient {
+
+    .patient-item {
+        margin-bottom: 15px;
+        position: relative;
+
+
+
+        .patient-header {
+            cursor: pointer;
+            background: $nightblue;
+            color: white;
+            font-family: $opensans;
+            padding: 5px 10px;
+
+            a {
+                img {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    border: 1px solid $darkgrey;
+                }
+            }
+
+            .name {
+                margin: 0;
+                text-transform: capitalize;
+            }
+
+            .email {
+                font-size: .8em;
+                color: $white-2;
+            }
+        }
+
+        .patient-body {
+            border: 1px solid $darkgrey;
+            padding: 5px 10px;
+            position: relative;
+
+            .patient-popup {
+                background: white;
+                position: absolute;
+                border: 1px solid $darkgrey;
+                top: 0;
+                left: 0;
+                width: 100%;
+                z-index: 9;
+                padding: 5px 10px;
+
+            }
+        }
+    }
+}
+#patient_appointments {
+    .appointments-container {
+        .panel {
+            p,label {
+                font-size: 14px;
+            }
+            .buttons {
+                a {
+                    color: inherit;
+                }
+            }
+        }
+    }
+}
+
+#patient_flags {
+    .flag-container {
+        .flag-time {
+            display: inline-block !important;
+        }
+
+        .panel-heading, .panel-body {
+            padding: 15px 10px;
+        }
+    }
+
+}
+
+#patient_information {
+    .information-container {
+        .panel {
+            p,label {
+                font-size: 14px;
+            }
+            .panel-heading {
+                padding: 5px 10px;
+            }
+        }
+    }
+}
+
+#patient_medication {
+    .medication-container {
+        .panel {
+            p,label {
+                font-size: 14px;
+            }
+            .v-select {
+                .dropdown-toggle {
+                    @extend .form-control;
+                    padding: 0 !important;
+                }
+
+            }
+        }
+    }
+}
+
+#patient_erx {
+    @import 'node_modules/vue-multiselect/dist/vue-multiselect.min';
+    
+}
+
+#medical {
+
+    .family-members-wrapper {
+        overflow-x: auto;
+
+        .row-fluid {
+        	white-space: nowrap;
+            text-align: center;
+
+        	[class*="col-"] {
+                float: none;
+        		display: inline-block !important;
+
+                .input-sm {
+                    height: 25px;
+                }
+        	}
+        }
+    }
+}
+
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    [class*='col-'] {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.datepicker {
+    input[type="text"] {
+        background: white;
+    }
+}
+.sig-builder {
+    .v-select {
+        .selected-tag {
+            background: transparent !important;
+            border: none !important;
+        }
+    }
+}
+.popup-enter-active {
+    animation: fade-in .2s;
+}
+.fade-out-leave-active {
+    animation: fade-out .5s;
+}
+.fade-out-enter-active {
+    animation: fade-in .5s;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+//cath
+#patient_view {
+    .patient-header {
+        text-align: center;
+        margin-bottom: 20px;
+        img {
+            width: 65px;
+            height: auto;
+            border-radius: 50%;
+            border: 1px solid $primaryblue;
+            padding: 3px;
+        }
+        .btn-group {
+           .dropdown-menu {
+                font-size: 12px;
+                a:hover {
+                        background-color: $primaryblue;
+                        color: $white;
+                }
+           }
+        }
+    }
+
+    .patient-body {
+        .panel {
+
+            p,label {
+                font-size: 14px;
+            }
+
+            &.panel-default {
+                .panel-heading {
+                    background-color: $defaultgrey;
+                    border-color: $defaultgrey;
+                    padding: 5px;
+
+                    h5 {
+                        margin: 3px 0;
+                    }
+                }
+            }
+
+            .panel-heading {
+                padding: 5px 10px;
+            }
+
+            .panel-body {
+                padding: 7px 15px;
+
+                .table {
+                    border-bottom: 1px solid $defaultgrey;
+
+                    tr > td:first-child {
+                        width: 30%;
+                        background: $defaultgrey;
+                        border-top: 1px solid white;
+                    }
+
+                    tr > td:last-child {
+                        width: 70%;
+                    }
+
+                    &:not(:last-child) {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    label {
+        font-size: 12px;
+    }
+}

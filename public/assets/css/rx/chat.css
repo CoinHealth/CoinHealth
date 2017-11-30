@@ -1,0 +1,130 @@
+body {
+	background: #eaeaea;
+}
+.answers, .steps {
+	display: none;
+}
+.chat-row {
+	margin-top: 80px;
+}
+
+.carla {
+	margin-bottom: 30px;
+	width: 500px;
+	position: relative;
+}
+
+.chat-container .carla-logo {
+	position: absolute;
+	width: 50px;
+	left: -20px;
+    top: -10px;;
+}
+
+.carla .status {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	padding-left: 40px;
+}
+
+.carla .status .name {
+	color: #ff8a00;
+}
+
+.carla .box {
+	background: #fff;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.carla .box p {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.carla .row-name {
+	margin-top: 20px;
+}
+
+.carla .row-name select {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+.carla .row-name input {
+	border-radius: 0px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.carla .row-name input:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+.carla-list {
+	list-style: none;
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
+.carla-list li {
+	margin-bottom: 20px;
+}
+
+.carla-list li:hover {
+	cursor: pointer;
+}
+
+.carla-list li a {
+	color: #033d84;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.continue {
+	color: #033d84;
+	display: block;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+.user {
+	width: 500px;
+	clear: both;
+}
+
+.user .box {
+	background: #ff8a00;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	padding: 15px;
+}
+
+.user .box p {
+	text-align: left;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 0px;
+}
+.user .name {
+	text-transform: capitalize;
+}
+.clear {
+	clear: both;
+}

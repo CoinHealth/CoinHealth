@@ -1,0 +1,110 @@
+body {
+	background: #66cccc;
+}
+
+.shop-container {
+	padding-bottom: 20px;
+}
+
+.shopping-icon {
+	text-align: right;
+	margin-top: 120px;
+}
+
+.shopping-icon img {
+	width: 65%;
+}
+
+.shopping-p {
+	margin-top: 130px;
+}
+
+.shopping-p p {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 55px;
+	font-weight: 700;
+}
+
+.shopping-p p span {
+	display: block;
+	padding-left: 30px;
+}
+
+.shopping-p p .gradient {
+	color: #ff8a00;
+	background: rgba(0,0,0,1);
+	background: rgba(0,0,0,1);
+	background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(255,255,255,0)));
+	background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+	background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+	background: -ms-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+	background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#ffffff', GradientType=1 );
+}
+
+.no-padding {
+	padding-left: 0px; !important;
+	padding-right: 0px; !important;
+}
+
+.btn-capsule {
+	display: block;
+	padding-left: 30px;
+}
+
+.btn-capsule img {
+	width: 100px;
+}
+
+.not-now {
+	display: block;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	margin-left: 55px;
+    margin-top: 10px;
+}
+
+.not-now:hover, .not-now:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+	.shopping-icon {
+		display: none;
+	}
+
+	.shopping-p {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.shopping-p p {
+		font-size: 35px;
+		text-align: center;
+	}
+
+	.shopping-p p span {
+		padding-left: 0px;
+	}
+
+	.shopping-p p .gradient {
+		background: none;
+	}
+
+	.capsule {
+		text-align: center;
+	}
+
+	.btn-capsule {
+		padding-left: 0px;
+	}
+
+	.not-now {
+		margin-left: 0px;
+	}
+}

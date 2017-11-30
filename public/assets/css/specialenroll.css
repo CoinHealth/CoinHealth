@@ -1,0 +1,119 @@
+.mainspecial-container {
+	background: url('/assets/icons/mainspecial.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	padding-top: 60px;	
+}
+
+.main-header {
+	position:fixed;
+	height: auto;
+	width: 100%;
+	z-index:9;
+	top: 0;
+}
+.main-header .main-cp-icon {
+	height: 45px;
+	padding: 2px;
+	background: rgba(255,255,255,0.8);
+}
+.main-header .main-cp-icon img{
+	margin: auto;
+	max-height: 100%;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+	color: #fff; 
+}
+
+.button-container {
+	text-align: center;
+	margin-top: 30px;
+}
+
+.btn-yes {
+	color: #fff;
+	background: #fc41a2;
+	padding: 15px 25px;
+	border-radius: 10px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+
+.btn-grey {
+	color: #000;
+	background: #c6c6c6;
+	padding: 15px 25px;
+	border-radius: 10px;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+
+.btn-grey:hover {
+	color: #000;
+}
+
+.btn-yes:hover {
+	color: #fff;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+.apply-container {
+	text-align: center;
+}
+
+.apply-row {
+	margin-top: 70px;
+}
+
+.quote {
+	width: 100%;
+	margin-top: 120px;
+}
+
+.div-back {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.div-back img {
+	width: 30px;
+}
+
+.btn-back {
+	color: #fff;
+	font-size: 18px;
+}
+
+.btn-back:hover, .btn-back:focus {
+	color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+	.btn-row-grey {
+		margin-top: 70px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.title {
+		font-size: 22px;
+	}
+
+	.quote {
+    	margin-top: 65px;
+	}
+
+
+}

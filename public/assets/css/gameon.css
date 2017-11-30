@@ -1,0 +1,190 @@
+.gameon-container {
+	background: url(/assets/icons/gameon.jpg) no-repeat center center;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	padding-top: 30px;
+  	padding-bottom: 40px;
+}
+
+.tablet-game {
+	width: 100%;
+	margin-top: 80px;
+}
+
+.title {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 138px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 110px;
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.desc {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo {
+	width: 80px;
+}
+
+.box-link {
+	text-align: center;
+	float: right;
+}
+
+.btn-white {
+	border: 1px solid #fff;
+	padding: 10px 50px;
+	border-radius: 6px;
+	color: #fff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 30px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	margin-right: 10px;
+}
+
+.btn-white:hover, .btn-white:focus {
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	border: 1px solid #000;
+}
+
+@media screen and (max-width: 991px) {
+	.btn-white {
+		margin-right: 0px;
+	}
+}
+
+.not-now {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+.link-not {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.not-now:hover, .not-now:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+@media screen and (max-width: 1199px) {
+	.title {
+		font-size: 110px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+
+	.gameon-container {
+		height: 100vh;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.gameon-container {
+		height: auto;
+	}
+
+	.logo {
+		width: 80px;
+	}
+
+	.tablet-div {
+		text-align: center;
+	}
+
+	.tablet-game {
+		width: 40%;
+	}
+
+	.title {
+		text-align: center;
+		margin-top: 8px;
+	}
+
+	.box-link {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 566px) {
+	.title {
+	    font-size: 60px;
+	}
+}
+
+
+
+
+/*new css for badges*/
+
+.badge-container {
+	background: url('/assets/icons/badge-bg.png') no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.float-left {
+	float: left;
+}
+
+.badge-list {
+	margin-top: 50px;
+}
+
+.box-badge {
+
+}
+
+.box-badge img {
+	width: 50px;
+}
+
+.box-badge .media {
+	color: #fff;
+}
+
+.p-badge {
+	color: #fff;
+	font-weight: 700;
+	font-size: 29px;
+	margin-top: 50px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+@media screen and (max-width: 1023px) {
+	.p-badge {
+		font-size: 23px;
+	}
+}
+/*new css for badges*/

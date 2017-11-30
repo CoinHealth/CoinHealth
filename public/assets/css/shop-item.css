@@ -1,0 +1,152 @@
+.logo {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.logo img {
+	width: 50px;
+}
+
+.item-container {
+	padding-bottom: 30px;
+}
+
+.box {
+	border-radius: 10px;
+	background: #f1f1f1;
+	padding: 30px;
+	-webkit-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 13px -4px rgba(0,0,0,0.75);
+}
+
+.fa-star {
+	color: #e2d600;
+}
+
+.star-grey {
+	color: #d2d2d2;
+}
+
+.item {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.info {
+	margin-top: 40px;
+}
+
+.prod-title {
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 0px;
+}
+
+.prod-price {
+	color: #333333;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.colors {
+	margin-bottom: 0px;
+}
+
+.colorlist {
+	list-style: none;
+}
+
+.colorlist li {
+	display: inline-block;
+}
+
+.color1 {
+	width: 10px;
+	height: 10px;
+	background: #000000;
+}
+
+.color2 {
+	width: 10px;
+	height: 10px;
+	background: #00c6ff;
+}
+
+.color3 {
+	width: 10px;
+	height: 10px;
+	background: #fff200;
+}
+
+.color4 {
+	width: 10px;
+	height: 10px;
+	background: #fe3fc2;
+}
+
+.clear	{
+	clear: both;
+}
+
+.orangebtn {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.orangebtn a {
+	color: #fff;
+	border-radius: 5px;
+	background: #ff931d;
+	padding: 10px 30px;
+}
+
+.orangebtn a:hover, .orangebtn a:focus {
+	text-decoration: none; 
+	background: #000;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.checkout {
+	margin-top: 30px;
+	text-align: center;
+	color: #333333;
+}
+
+.checkout a:hover, .checkout a:focus {
+	text-decoration: none;
+}
+
+/*cath*/
+.modal,
+.modal-footer {
+	text-align: center;
+}
+
+.modal-header img {
+	height: 60px;
+}
+
+#cartModal .modal-header {
+	text-align: left;
+}
+
+.cart-title {
+	font-size: 25px;
+}
+
+.cart-item img {
+	height: 80px;
+}
+
+.cart-wrapper table td {
+	padding: 40px;
+}
+
+/*cath*/

@@ -1,0 +1,151 @@
+/***Modals***/
+#welcome {
+
+}
+
+#welcome .modal-content {
+	background: rgba(73, 129, 208, 0.75);
+
+}
+
+#welcome button.close {
+	color: #fff;
+	z-index: 9;
+    margin-right: 10px;
+    position: relative;
+}
+
+.welcome {
+	width: 100%;
+}
+
+#welcome .subcontent {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 700px;
+	margin-top: 20px;
+}
+
+#welcome .carepoints {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+#welcome .redeem {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 80px;
+}
+
+#welcome .join-div {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+}
+
+#welcome .btn-join {
+	background: #ff931d;
+	color: #fff;
+	width: 47%;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	float: left;
+}
+
+#welcome .btn-join:before {
+  	z-index: 1;
+  	content: '';
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	right: -15px;
+  	display: block;
+  	width: 35px;
+  	background: #ff931d;
+  	-webkit-transform: skew(-35deg);
+  	-ms-transform: skew(-35deg);
+  	transform: skew(-35deg);
+}
+
+#welcome .btn-member {
+	background: #ff931d;
+	color: #fff;
+	width: 47%;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: relative;
+	float: right;
+}
+
+#welcome .btn-member:before {
+	z-index: 1;
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -28px;
+	display: block;
+	width: 55px;
+	background: #ff931d;
+	-webkit-transform: skew(-35deg);
+	-ms-transform: skew(-35deg);
+	transform: skew(-35deg);
+}
+
+@media screen and (max-width: 500px) {
+	#welcome .subcontent {
+		font-size: 14px;
+	}
+
+	#welcome .carepoints {
+		font-size: 25px;
+	}
+
+	#welcome .carepoints {
+		font-size: 14px;
+	}
+
+	#welcome .btn-member:before {
+		display: none;
+	}
+
+	#welcome .btn-join:before {
+		display: none;
+	}
+
+	#welcome .btn-join {
+		width: 100%;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+
+	#welcome .btn-member {
+		width: 100%;
+	}
+
+	#welcome .join-div {
+		width: auto;
+		position: relative;
+	}
+
+	#welcome .redeem {
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,56 @@
+body {
+	background: #eaeaea;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.logo img {
+	width: 80px;
+}
+
+.title {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
+	font-weight: 600;
+	margin-top: 40px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.checklist {
+	display: table;
+	list-style: none;
+	margin: auto;
+}
+
+.checklist li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+
+	background: url('/assets/icons/checklist.png') no-repeat left top;
+	height: 54px;
+	padding-left: 65px;
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+	.checklist li {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.checklist li {
+		margin-bottom: 80px;
+		font-size: 20px;
+	}
+}
+

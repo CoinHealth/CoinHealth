@@ -1,0 +1,140 @@
+#dashboard {
+    .row-specialization {
+        .right {
+            p {
+                span:not(:last-child):after {
+                    content: ",";
+                }
+            }
+        }
+    }
+
+    .branches-container {
+
+        .panel {
+            margin-bottom: 10px;
+
+            .panel-heading {
+                padding: 5px;
+                font-size: 14px;
+                font-weight: bold;
+                background-color: white;
+            }
+            .panel-body {
+                @extend .small;
+                padding: 5px;
+
+                .form-group {
+                    margin-bottom: 5px;
+
+                    label {
+                        font-size: 14px;
+                    }
+                }
+            }
+            .panel-footer {
+                padding: 5px;
+                background-color: white;
+            }
+        }
+
+    }
+
+    // cath
+    .mini-sub {
+        font-size: 14px !important;
+    }
+
+    .qlabel {
+        background-color: $defaultgrey;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .ans {
+        font-size: 14px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .mini-sub {
+            font-size: 14px !important;
+        }
+
+        .qlabel, 
+        .ans {
+            font-size: 14px;
+        }
+
+    }
+
+}
+
+.panel-primary {
+	.panel-heading {
+        .panel-title {
+            font-size: 14px;
+        }
+		.btn {
+    		color: white !important;
+    	}
+
+    	& .dropdown-toggle {
+    		padding-top: 0px;
+    	}
+	}
+
+    .panel-body {
+        li {
+            span {
+                font-size: 14px !important;
+            }
+        }
+    }
+}
+
+#medical {
+    .medical-form {
+        label {
+            font-size: 12px !important;
+        }
+        .view-form {
+            .form-group {
+                margin-bottom: 2px;
+            }
+        }
+        .edit-form {
+            .form-group {
+                margin-bottom: 5px;
+            }
+        }
+
+        .subtitle {
+            border-bottom: 1px solid #9E9E9E !important;
+            padding-bottom: 5px;
+            color: #337ab7;
+        }
+    }
+}
+
+.datatable 
+{
+    font-size: 14px !important;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate
+{
+    font-size: 12px !important;
+}
+
+
+input[type="date"]
+{
+    // min-width:90%;
+    display:block;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    min-height: 1.2em;
+}

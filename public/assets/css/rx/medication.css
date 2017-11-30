@@ -1,0 +1,92 @@
+#medications .first-row {
+	background: #5575ff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#medications .second-row {
+	background: #dff7fe;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#medications .third-row {
+	background: #5575ff;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#medications .fourth-row {
+	background: #dff7fe;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.no-padding {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+#medications .title {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#medications .subtitle {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#medications .title-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#medications .subtitle-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+#medications .view-more {
+	color: #023882;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	display: block;
+}
+
+#medications .img-med {
+	width: 40%;
+}
+
+@media screen and (max-width: 480px) {
+
+	#medications .img-med {
+		width: 30%;
+	}
+}

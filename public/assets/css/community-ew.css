@@ -1,0 +1,130 @@
+.east {
+	background: url(/assets/icons/east-half.png) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	padding-top: 240px;
+	padding-bottom: 240px;
+	/*background-position: 100% !important;*/
+}
+
+.west {
+	background: url(/assets/icons/west-half.png) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	padding-top: 240px;
+	padding-bottom: 240px;
+}
+
+.nopadding {
+	padding: 0px !important;
+}
+
+.title {
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	font-weight: 700;
+}
+
+.title span {
+	font-size: 37px;
+}
+
+.btn-enter {
+	text-align: center;
+}
+
+.btn-enter a {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	padding: 10px 30px;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-enter a:hover, .btn-enter a:focus {
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	border: 2px solid #000;
+}
+
+.back-row {
+	position: absolute;
+    z-index: 99999999;
+    margin-top: -40px;
+    text-align: center;
+    font-size: 20px;
+    margin: -40px auto;
+    left: 50%;
+    color: #fff;
+}
+
+.back-row img {
+	width: 30px;
+}
+
+.back-btn {
+	position: relative;
+	left: -50%;
+	color: #fff;
+}
+
+
+.back-btn:hover,
+.back-btn:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+	.east {
+		background-position: 100% !important; 
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.east {
+		background: #20b9d4;
+		height: auto;
+		padding-bottom: 80px;
+		padding-top: 80px;
+	}
+
+	.west {
+		background: #003a85;
+		height: auto;
+		padding-bottom: 80px;
+		padding-top: 80px;
+	}
+
+	.title {
+		padding-top: 0px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+	.east {
+	    background: #20b9d4;
+	    padding-bottom: 80px;
+	    padding-top: 160px;
+	    height: 512px;
+	}
+
+	.west {
+	    background: #003a85;
+	    padding-bottom: 80px;
+	    padding-top: 160px;
+	    height: 512px;
+	}
+
+
+}

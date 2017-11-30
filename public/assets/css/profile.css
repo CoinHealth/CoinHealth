@@ -1,0 +1,125 @@
+body {
+	overflow-x: hidden;
+	margin-bottom: 8vh;
+}
+.profile-head {
+	background-color: #117ba3;
+	padding: 20px;
+	color: white;
+}
+.profile-head .profile-inner{
+	height: auto;
+	padding: 0 20px;
+}
+.profile-inner .profile-picture > .img{
+	cursor: pointer;
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #e4e4e4;
+	/*background-image: url(/assets/icons/profile-default.png);*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.profile-inner .profile-picture .img p.change-picture {
+	font-size: 8px;
+	position: absolute;
+	width: 100px;
+	top: 68px; 
+}
+.profile-inner .profile-picture .img p.change-picture label{
+	text-decoration: underline;
+	font-size: 8px;
+}
+.profile-inner .profile-picture .details {
+	background-color: #117ba3;
+	height: auto;
+	width: auto;
+	padding: 0 !important;
+	margin-top: -20px;
+}
+.details > * {
+	vertical-align: middle;
+}
+.profile-name {
+	font-size: 3em;
+}
+.details > p.profile-address {
+	font-size: 20px;
+	font-weight: 300px;
+	margin: 0;
+}
+.details p.change-picture{
+	cursor: pointer;
+	height: auto;
+}
+
+.menu-container {
+	padding: 30px;
+}
+.menu-container .menu a {
+	font-size: 16px; 
+	font-weight: 600;
+	text-decoration: none;
+}
+.menu-container .menu {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	z-index: 0;
+	transition: transform .3s linear;
+}
+.menu-container .menu:hover {
+	transform: scale(1.3);
+	z-index: 1;
+}
+.menu > div{
+	padding: 20px;
+	height: auto;
+	width: 150px;
+	margin: auto;
+	border-radius: 15px;
+}
+.menu > div img {
+	margin: auto;
+	height: 90px;
+}
+.menu > div p {
+	margin: 5px 0 0 0;
+	line-height: 1.5;
+	color: #fff;
+}
+.menu .menu-policy {
+	background-color: #1abc9c;
+}
+.menu .menu-about-me {
+	background-color: #3498db;
+}
+.menu .menu-forums {
+	background-color: #9b59b6;
+}
+.menu .menu-settings {
+	background-color: #34495e;
+}
+.menu .menu-store {
+	background-color: #e74c3c;
+}
+.menu .menu-etc {
+	background-color: #f1c40f;
+}
+
+/*.profile-inner .profile-picture .img > img {
+	margin: 20px auto;
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}*/
+
+
+@media screen and (max-width: 480px) {
+	.col-xs-6.menu {
+		width: 100%;
+	}
+}
+

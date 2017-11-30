@@ -1,0 +1,31 @@
+﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+	font-family:"Lato-Bold";
+	src:url("Lato-Bold.ttf?")
+		format("eot"),url("Lato-Bold.ttf")
+		format("woff"),url("Lato-Bold.ttf")
+		format("truetype"),url("Raleway-Thin.svg")
+		format("svg");
+	font-weight:bold;
+	font-style:oblique;
+}
+@font-face {
+	font-family:"Lato-Semibold";
+	src:url("Lato-Semibold.ttf?")
+		format("eot"),url("Lato-Semibold.ttf")
+		format("woff"),url("Lato-Semibold.ttf")
+		format("truetype"),url("Lato-Semibold-Thin.svg")
+		format("svg");
+	font-weight:bold;
+	font-style:oblique;
+}
+@font-face {
+	font-family:"Lato-Medium";
+	src:url("Lato-Medium.ttf?")
+		format("eot"),url("Lato-Medium.ttf")
+		format("woff"),url("Lato-Medium.ttf")
+		format("truetype"),url("Lato-Medium.svg")
+		format("svg");
+	font-weight:bold;
+	font-style:oblique;
+}

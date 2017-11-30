@@ -1,0 +1,154 @@
+html, body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+.news-container {
+  background: url(/assets/icons/newsbg.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+.nopadding {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.div-yellow {
+	background: #e67f22;
+	padding: 3% 40px 3% 55px;
+}
+
+.div-grey {
+	background: rgba(122, 120, 120, 0.5);
+	position: relative;
+	padding: 3% 40px 3% 95px;
+}
+
+.title-media {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 65px;
+	text-transform: uppercase;
+}
+
+.media-body {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	padding-top: 7px;
+}
+
+.div-topics {
+	
+}
+
+.new-topic {
+	margin-top: 25px;
+}
+
+.new-topic p {
+	margin-bottom: 0px;
+}
+
+.month {
+	background: #000;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.month p {
+	margin-bottom: 0px;
+}
+
+.month p a {
+	color: #fff;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.channel .name {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.channel .days {
+	font-style: italic;
+	color: #6d6d6d;
+}
+
+.title-news p {
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+}
+
+.desc {
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+}
+
+.social {
+	color: #337ab7;
+}
+
+.next {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-weight: 700; 
+}
+
+.back-a {
+	text-align: center;
+}
+
+.back-a img {
+	width: 30px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 1194px) {
+	.media-body {
+		font-size: 18px;
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.media-body {
+		font-size: 13px;
+		padding-top: 30px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.media-left {
+		display: block;
+    	text-align: center;
+	}
+
+	.div-yellow, .div-grey {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.media-body {
+		padding-top: 0px;
+	}
+
+	.title-media {
+		font-size: 45px;
+	}
+}

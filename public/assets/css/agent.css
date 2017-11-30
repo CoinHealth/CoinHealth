@@ -1,0 +1,104 @@
+.gameon-container {
+	background: url(/assets/icons/agent.jpg) no-repeat center center; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	height: auto;
+  	padding-top: 30px;
+  	padding-bottom: 40px;
+}
+
+.logo {
+	width: 100%;
+}
+
+.agents-p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 100px;
+	font-weight: 800;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
+}
+
+.agents-p span {
+	color: #ff5151;
+}
+
+.box-link {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.btn-white {
+	border: 2px solid #fff;
+	padding: 10px 50px;
+	border-radius: 6px;
+	color: #fff;
+	font-family: 'Raleway',sans-serif;
+	font-size: 30px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-white:hover, .btn-white:focus {
+	text-decoration: none;
+	color: #fff;
+	background: #000;
+	border: 2px solid #000;
+}
+
+.not-now {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+}
+
+.link-not {
+	margin-top: 20px;
+}
+
+.not-now:hover, .not-now:focus {
+	text-decoration: none;
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+.desc {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 991px) {
+	.logo {
+		width: 80px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.agents-p {
+		font-size: 65px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.agents-p {
+		font-size: 55px;
+	}
+
+	.desc {
+		font-size: 28px;
+	}
+}

@@ -1,0 +1,80 @@
+@import url(/assets/fonts/Raleway/stylesheet.css);
+.main-header {
+	position:fixed;
+	height: auto;
+	width: 100%;
+	z-index:9;
+	top: 0;
+}
+.main-header .main-cp-icon {
+	height: 45px;
+	padding: 2px;
+	background: rgba(255,255,255,0.8);
+}
+.main-header .main-cp-icon img{
+	margin: auto;
+	max-height: 100%;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.logo img {
+	width: 50px;
+}
+
+.btn-danger {
+	display: none;
+}
+
+.panel-body {
+	padding: 60px;
+	font-family: "Raleway-Medium" !important;
+}
+
+.calculators-container,
+#cal_btn,
+#advanced_calculator table {
+	/*/font-family: "Raleway";*/
+}
+
+.calculators-container input,
+.calculators-container select  {
+	font-size: 15px;
+}
+
+.income_class {
+	text-align: left;	
+}
+
+.calculators-container #cal_btn li.active a {
+    background: rgb(255, 138, 0);
+    color: white;
+    font-weight: bold;
+}
+.calculators-container #cal_btn li a {
+    background: white;
+    border: 1px solid rgb(255, 138, 0);
+    color: rgb(255, 138, 0);
+    font-weight: bold;
+}
+
+.income-title {
+	font-family: 'Raleway-SemiBold', sans-serif;
+	font-size: 20px;	
+}
+
+.back-a {
+	text-align: center;
+}
+
+.back-a img {
+	width: 30px;
+}
+
+.income-container {
+	padding-bottom: 20px;
+}

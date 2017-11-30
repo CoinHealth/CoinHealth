@@ -1,0 +1,244 @@
+.upper-div {
+	background: url(/assets/icons/upperbg.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	position: relative;
+    transform-origin: right bottom;
+    transform: skewY(3deg);
+}
+
+.upper-text-small {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 295px;
+	float: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: right;
+	line-height: 1.8em;
+}
+
+.upper-text-big {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 90px;
+	font-weight: 700;
+	color: #fff;
+	float: right;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.middle-div {
+	padding-bottom: 150px;
+}
+
+.middle-div .mascot-div img {
+	width: 100%;
+	position: absolute;
+	z-index: 5;
+}
+
+.mid-text-div {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.mid-text-div p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+	color: #000;
+	font-weight: 700;
+	text-transform: uppercase; 
+	line-height: 1.2em;
+}
+
+.mid-text-div p span {
+	color: #ff0060;
+	font-size: 70px;
+}
+
+.mid-text-div p:last-child {
+	margin-top: 50px;
+}
+
+.last-div {
+	background: #003a85;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	overflow: hidden;
+}
+
+.last-div:after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	position: absolute;
+	transform: skewY(-3deg);
+	transform-origin: top left;
+	margin-top: -20px;
+}
+
+.main-last-div {
+	background: #003a85;
+	padding-bottom: 60px;
+}
+
+.main-last-div .last-div-title p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.main-last-div .content {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.div-btn-quote {
+	text-align: center;	
+	padding-top: 20px;
+}
+
+.btn-quote {
+	background: #fff;
+	color: #000;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-quote:hover, .btn-quote:focus {
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+}
+
+.div-btn {
+	width: 100%;
+	text-align: center;
+}
+
+.btn-last {
+	background: #fff;
+	color: #000;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+	width: 100%;
+	display: block;
+	font-size: 27px;
+    letter-spacing: 3px;
+    line-height: 0.8em;
+}
+
+.btn-last span {
+	font-weight: 400;
+	font-size: 15px;
+	text-transform: none;
+}
+
+.btn-last:hover, .btn-last:focus {
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+}
+
+@media screen and (max-width: 1199px) {
+	.upper-text-big {
+		font-size: 70px;
+	}
+
+	.upper-text-small {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.middle-div .mascot-div img {
+		position: relative;
+		width: 40%;
+	}
+
+	.mascot-div {
+		text-align: center;
+	}
+
+	.div-btn {
+		margin-top: 55px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.upper-text-small {
+		float: none;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 525px) {
+	.upper-div {
+		transform-origin: none;
+    	transform: none;
+    	padding-bottom: 20px;
+	}
+
+	.upper-text-small {
+		padding-top: 170px;
+		line-height: 1em;
+		font-size: 28px;
+		padding-bottom: 20px;
+	}
+
+	.upper-text-big {
+    	font-size: 40px;
+    	line-height: 1em;
+	}	
+
+	.middle-div {
+		padding-bottom: 50px;
+	}
+
+	.middle-div .mascot-div img {
+		width: 70%;
+		margin-top: 50px;
+	}
+
+	.mid-text-div p {
+		font-size: 25px;
+	}
+
+	.mid-text-div p span {
+		font-size: 45px;
+	}
+
+	.last-div {
+		display: none;
+	}
+
+	.main-last-div {
+		padding-top: 50px;
+	}
+}

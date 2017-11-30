@@ -1,0 +1,15 @@
+/node_modules
+/public/storage
+/storage/*.key
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+npm-debug.log
+/public/js/*
+/public/css/*
+/.imdone
+/public/assets/js/vendor
+TODO
+npm-debug.log.*

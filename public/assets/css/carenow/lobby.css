@@ -1,0 +1,75 @@
+.lobby-container {
+	/*background: url('/assets/icons/lobby.jpg');*/
+	background: #dff7fe;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
+
+body {
+	background: #dff7fe;
+}
+
+@media screen and (max-width: 991px) {
+	.lobby-container {
+		background: #dff7fe;
+/*		height: auto;*/
+		padding-bottom: 40px;
+	}
+}
+
+.home-back {
+	color: #444;
+	display: block;
+	margin-top: 60px;
+}
+
+.title {
+	color: #444;
+	font-family: 'Raleway', sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	margin-top: 100px;
+}
+
+@media screen and (max-width: 991px) {
+	.title {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.title {
+		font-size: 30px;
+	}
+}
+
+.btn-blue {
+	padding: 10px 50px;
+    background: #336fb2;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    text-align: center;
+}
+
+.btn-blue:hover, .btn-blue:focus {
+	text-decoration: none;
+    color: #fff;
+    background: #000;
+}
+
+@media screen and (max-width: 991px) {
+	.btn-blue {
+		margin-bottom: 20px;
+	}
+}
+
+.row-btn-blue {
+	margin-top: 60px;
+}

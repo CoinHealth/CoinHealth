@@ -1,0 +1,202 @@
+@import url(/assets/fonts/Futura/stylesheet.css);
+@import url(/assets/fonts/OpenSans/stylesheet.css);
+
+.tellme-container {
+	background: url(/assets/icons/landing/tellme.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.main-header {
+	display: none;
+}
+
+.social-icons {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.social-icons li {
+	display: inline-block;
+	margin: 5px 5px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.btn-not {
+	margin-top: 10px;
+}
+
+.white-div {
+	background: rgba(255, 255, 255, 0.75);
+	width: 90%;
+	height: 100%;
+	float: left;
+}
+
+.orange-div {
+	background: rgba(224, 93, 8, 0.75);
+	width: 10%;
+	height: 100vh;
+	float: left;
+}
+
+.color-div {
+	width: 66%;
+}
+
+.price {
+	padding-left: 0px;
+	list-style: none;
+	margin-top: 0px;
+}
+
+.price li {
+	float: left;
+	vertical-align: middle;
+	width: 33.333%;
+}
+
+.orange-table {
+	width: 100%;
+}
+
+.orange-table .o-title {
+	background: #e05d08;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-family: 'Futura Hv BT', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.orange-table .o-price {
+	background: #fe8e46;
+	width: 100%;
+	text-align: center;
+	padding: 25px 5px;
+	color: #fff;
+	font-family: 'Futura Hv BT', sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+	height: 100px;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+.blue-table {
+	width: 100%;
+}
+
+.blue-table .b-title {
+	background: #023780;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-family: 'Futura Hv BT', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.blue-table .b-price {
+	background: #4191ff;
+	width: 100%;
+	text-align: center;
+	padding: 25px 5px;
+	color: #fff;
+	font-family: 'Futura Hv BT', sans-serif;
+	font-weight: 900;
+	font-size: 25px;
+	height: 100px;
+}
+
+.content {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.more-list {
+	margin-top: 20px;
+}
+
+.more-list  li {
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.clear {
+	clear: both;
+}
+
+.btn-container {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.btn-orange-rad {
+	background: #e05d08;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	padding: 10px 35px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-orange-rad:hover, .btn-orange-rad:focus {
+	background: #ebebeb;
+	color: #023680;
+	text-decoration: none;
+	border: 1px solid #023680;
+}
+
+@media screen and (max-width: 1120px) {
+	.white-div {
+		height: 700px;
+	}
+
+	.orange-div {
+		height: 700px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.color-div {
+		width: 100%;
+	}
+
+	.orange-div {
+		display: none;
+	}
+
+	.white-div {
+		width: 100%;
+		height: auto;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.price li {
+		width: 50%;
+	}
+
+	.price li:last-child {
+		width: 100%;
+	}
+}

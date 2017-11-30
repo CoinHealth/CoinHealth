@@ -1,0 +1,60 @@
+.shop-container {
+	padding-bottom: 30px;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.logo img {
+	width: 50px;
+}
+
+.box-prod {
+	text-align: center;
+}
+
+.box-prod p {
+	text-align: left;
+}
+
+.prod-title {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.price {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+}
+
+.border {
+	padding: 20px;
+	border: 1px solid #afb2b3;
+	cursor: pointer;
+	position: relative;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s
+}
+
+.border:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.border a {
+	position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    text-decoration:none; /* Makes sure the link   doesn't get underlined */
+    z-index:10; /* raises anchor tag above everything else in div */
+    background-color:white; /*workaround to make clickable in IE */
+    opacity: 0; /*workaround to make clickable in IE */
+    filter: alpha(opacity=1); /*workaround to make clickable in IE */
+}
+

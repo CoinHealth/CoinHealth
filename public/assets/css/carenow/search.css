@@ -1,0 +1,395 @@
+body {
+	padding-right: 0px !important;
+	background: #355f99;
+	height: 100%;
+	width: 100%;
+	padding-bottom: 60px;
+}
+form.login-form {
+	margin-top: 20px;
+}
+.disclaimer {
+	font-size: 10px;
+}
+@-webkit-keyframes pulse {
+  50% {
+    background: white;
+  }
+}
+@keyframes pulse {
+  50% {
+    background: white;
+  }
+}
+.pulse-container {
+	text-align: center;
+	width: 100%;
+}
+.loading-pulse {
+	margin: auto;
+	position: relative;
+	width: 6px;
+	height: 24px;
+	background: rgba(53,95,153,1);
+	-webkit-animation: pulse 750ms infinite;
+	animation: pulse 750ms infinite;
+	-webkit-animation-delay: 250ms;
+	animation-delay: 250ms;
+}
+.loading-pulse:before, .loading-pulse:after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 16px;
+	width: 6px;
+	background: rgba(53,100,200,0.5);
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-animation: pulse 750ms infinite;
+	animation: pulse 750ms infinite;
+}
+.loading-pulse:before {
+	left: -12px;
+}
+.loading-pulse:after {
+	left: 12px;
+	-webkit-animation-delay: 500ms;
+	animation-delay: 500ms;
+}
+#doctor-single .specializations-list{
+	list-style: none;
+	padding-left: 0;
+}
+#doctor-single .specializations-list .subtitle {
+	text-transform: capitalize;
+}
+.opaque {
+	opacity: .2;
+	transition: opacity .3s linear;
+}
+.slide-btn {
+	color: #fff;
+	position: fixed;
+    right: 15px;
+    bottom: 12px;
+    z-index: 999;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background: #e05d08;
+    border: 1px solid #9c4003;
+    cursor: pointer;
+}
+#triage em{
+	font-weight: 600;
+	font-style: normal;
+}
+.letter-header {
+	font-weight: 600;
+}
+.modal-div-title {
+	background: #ff8a00;
+	padding-top: 15px;
+}
+
+.triage-search .clear {
+	position: absolute;
+	right: 10px;
+	z-index: 10;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 34px;
+}
+.triage-search .clear:hover {
+	text-decoration: none;
+}
+.suggestion-wrapper .panel-title {
+	color: #444;
+	font-weight: 700;
+	font-size: 18px;
+}
+.suggestion-wrapper .list-group-item.title {
+	color: #444;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+.modal-div-title p {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.modal-body {
+	padding-top: 0px;
+}
+
+.modal-search-title {
+	color: #444;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.modal-content-p {
+	color: #444;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.image-conditions {
+	text-align: center;
+}
+
+.image-conditions img {
+	width: 100%;
+}
+
+.search-container {
+	/*background: url('/assets/icons/search.jpg');*/
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	height: auto;
+	width: 100%;
+}
+
+.notScroll {
+    overflow: hidden;
+}
+
+.scroll {
+	overflow: auto;
+}
+
+.home-back {
+	color: #fff;
+	display: block;
+	margin-top: 60px;
+}
+
+.row-search {
+	margin-top: 40px;
+}
+
+.tab-view {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.tab-view li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.tab-view li a {
+	color: #fff;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.tab-view li a:hover, .tab-view li a:focus {
+	color: #fff;
+}
+
+.az-list {
+	list-style: none;
+	margin-top: 10px;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.az-list li {
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.az-list li a {
+	color: #fff;
+}
+
+.list-view-container {
+	display: none;
+}
+
+.list-view-box {
+	background: #fff;
+	width: 100%;
+	padding: 15px;
+}
+
+.search-view-box {
+	background: #fff;
+	width: 100%;
+	padding: 15px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.inner {
+	border: 3px solid #ffaa44;
+	border-radius: 5px;
+	height: auto;
+	overflow-x: hidden;
+}
+
+.inner::-webkit-scrollbar {
+	width: 12px;
+}
+
+.inner::-webkit-scrollbar-track {
+	background: none;
+}
+
+.inner::-webkit-scrollbar-thumb {
+	background: -webkit-linear-gradient(left, #ffaa44, #ffaa44);
+	border: 1px solid #fff;
+}
+
+.symptom-list {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.symptom-list li {
+	padding: 10px;
+}
+
+.symptom-list li:hover {
+	background: #ffaa44;
+}
+
+.symptom-list li a {
+	color: #444;
+}
+
+.symptom-list li a:hover, .symptom-list li a:focus {
+	text-decoration: none;
+}
+
+.search-title {
+	color: #444;
+	font-weight: 700;
+	font-size: 18px;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.search-content {
+	color: #444;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+.data-list {
+	list-style: none;
+	padding-left: 0px;
+}
+.data-list .data-sublist > tr > td:last-child {
+	margin-left: 20px;
+}
+.data-list > li > a:last-child {
+	padding-left: 30px;
+}
+.data-list > li > a:first-child:hover {
+	color: yellow;
+}
+.data-list > li a {
+	transition: color .1s linear;
+	display: table-cell;
+	color: #444;
+	font-weight: 600;
+	text-decoration: none;
+}
+.data-list > li {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+
+
+.data-list li:not(.letter-header):hover {
+	background: #ffaa44;
+}
+
+.causes {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.causes li {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.causes li a {
+	color: #444;
+	text-decoration: none;
+}
+
+.causes li:hover {
+	background: #ffaa44;
+}
+
+.treatment {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.treatment li {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.treatment li a {
+	color: #444;
+	text-decoration: none;
+}
+
+.treatment li:hover {
+	background: #ffaa44;
+}
+
+.facility {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.facility li {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.facility li a {
+	color: #444;
+	text-decoration: none;
+}
+
+.facility li:hover {
+	background: #ffaa44;
+}
+
+.doctor {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.doctor li {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+
+.doctor li a {
+	color: #444;
+	text-decoration: none;
+}
+
+.doctor li:hover {
+	background: #ffaa44;
+}

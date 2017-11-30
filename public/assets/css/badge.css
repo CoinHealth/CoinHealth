@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,600,700,400);
+
+
+.dialog {
+	font-family: 'Raleway', Arial, sans-serif;
+	color: #c94e50;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.morph-shape {
+	padding-top: 80px;
+}
+
+#imgBadge {
+	margin-top: 30%;
+/*margin-top: 50px;
+	height: 200px;
+	width: auto;
+*/
+}
+
+#closeBadge {
+	color: #74716D;
+	text-decoration: none;
+	outline: none;
+	padding: 1em 2em;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background: #e05d08;
+}
+
+.button-wrap {
+	padding: 2.5em 0 0;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+#closeBadge.trigger {
+	background: #c94e50;
+	color: #fff;
+	border: none;
+}

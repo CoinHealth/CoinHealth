@@ -1,0 +1,48 @@
+.careparrot-card {
+    max-width: 500px;
+    height: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    .header {
+        position: relative;
+        padding: 10px 15px;
+        background: #023881;
+        text-overflow: clip;
+        word-wrap: break-word;
+
+        img {
+            width: auto;
+            height: 40px;
+            vertical-align: middle;
+        }
+        p {
+            vertical-align: middle;
+        }
+    }
+    .body {
+        position: relative;
+        text-overflow: clip;
+        word-wrap: break-word;
+        padding: 10px 15px;
+
+        .id-placeholder {
+            width: 100px;
+            height: 100px;
+        }
+        h2 {
+            margin: auto;
+            line-height: 100px;
+            color: $darkgrey;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+    }
+    .footer {
+        position: relative;
+        padding: 5px 15px;
+        background: #023881;
+        text-overflow: clip;
+        word-wrap: break-word;
+    }
+}

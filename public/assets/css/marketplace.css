@@ -1,0 +1,192 @@
+.main-header {
+	position:fixed;
+	height: auto;
+	width: 100%;
+	z-index:9;
+	top: 0;
+}
+.main-header .main-cp-icon {
+	height: 45px;
+	padding: 2px;
+	background: rgba(255,255,255,0.8);
+}
+.main-header .main-cp-icon img{
+	margin: auto;
+	max-height: 100%;
+}
+
+/***loss health ****/
+.loss-health-container {
+	background: url(/assets/icons/loss-health.jpg) no-repeat; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	height: 780px;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+}
+
+.market-plan-container {
+	background: #fff;
+	width: 100%;
+	height: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.row-market p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.row-market p .blue {
+	color: #003a85;
+}
+
+ol {
+	list-style-type: none;
+    list-style-type: decimal !ie; /*IE 7- hack*/
+     
+    margin: 0;
+    margin-left: 3em;
+    padding: 0;
+     
+    counter-reset: li-counter;
+}
+
+ol > li{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 0.5em;
+    min-height: 3em;
+    margin-bottom: 30px;
+}
+
+ol > li:before {
+    position: absolute;
+    top: -14px;
+    left: -0.8em;
+    width: 0.8em;
+    font-size: 5em;
+    line-height: 1;
+    font-weight: bold;
+    text-align: right;
+    color: #ff931d;
+    content: counter(li-counter);
+    counter-increment: li-counter;
+    font-family: 'Raleway', sans-serif;
+}
+
+.loss-title {
+	text-align: center;
+}
+
+.loss-title .p-subtitle {
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+.loss-title .p-title {
+	color: #ff931d;
+	font-family: Impact, sans-serif;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.row-market p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.row-market p .blue {
+	color: #003a85;
+}
+
+.row-nav {
+	/*position: relative;*/
+}
+
+.row-nav a:hover {
+	text-decoration: none;
+}
+
+.row-nav .divider {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+}
+
+.row-nav .back {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ff931d;
+}
+
+.row-nav .next {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #003a85;
+}
+
+.slider-nav {
+	/*position: absolute;
+    bottom: -75px;
+    right: 95px;*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+
+.slider-nav img {
+	width: 30px;
+}
+
+.row-3 {
+	display: none;
+}
+
+.row-4 {
+	display: none;
+}
+
+.cp-logo {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 991px) {
+
+	.loss-health-container {
+		background: #fff;
+	}
+
+
+	.loss-title .p-subtitle {
+		margin-top: 120px;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 360px) {
+	.loss-title .p-title {
+		font-size: 40px;
+	}
+}

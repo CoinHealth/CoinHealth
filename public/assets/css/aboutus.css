@@ -1,0 +1,163 @@
+.panel-container {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.nav-tabs {
+	background: #ff931d;
+}
+
+.nav-tabs > li {
+	width: 25%;
+	text-align: center;
+}
+
+.nav-tabs > li > a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	border-radius: 0px;
+	padding-top: 37px;
+   /* padding-bottom: 15px;*/
+    color: #fff;
+    border-color: #ff931d !important;
+    height: 90px;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active >a:hover {
+	color: #336fb2;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+	color: #336fb2;
+}
+
+.nav > li > a > img {
+	width: 50px;
+}
+
+.nav > li:first-child > a {
+	padding-top: 20px;
+}
+
+.nav > li:first-child > a:focus, .nav > li:first-child > a:hover {
+	background-color: #ff931d !important;
+	border-color: #ff931d !important;
+	color: #fff;
+}
+
+.title-container {
+	background-color: #00eae2;
+  background-image: url(/assets/icons/parrot-wing.png);
+	background-repeat: no-repeat;
+	background-size: 40% 200%;
+	background-position: top right;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.title-container img {
+	width: 50%;
+}
+
+.title-container .parrottype {
+	width: 70%;
+}
+
+.tab-text {
+	padding-top: 30px;
+}
+
+.tab-community {
+	background: url('/assets/icons/aboutus.jpg');
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 390px;
+}
+
+.tab-text p {
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	color: #313131;
+	margin: 0 0 30px;
+}
+
+.tab-text p span {
+	color: #0064d4;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.typecare {
+	width: 35%;
+}
+
+.second {
+	display: none;
+}
+
+.carla {
+	width: 100%;
+}
+
+p.title {
+	font-weight: 700;
+}
+
+.small-text {
+	color: #000 !important;
+	font-size: 17px;
+}
+
+@media screen and (max-width: 991px) {
+	.carla {
+		width: 40%;
+	}
+
+	.tab-community {
+		padding-bottom: 100px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+	.tab-community {
+	    height: 831px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.title-container img {
+		width: 80%;
+	}
+
+	.nav-tabs > li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.tab-community {
+	    padding-bottom: 2px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.nav-tabs > li {
+		width: 100%;
+	}
+
+	.nav > li > a {
+		width: 100%;
+	}
+
+	.tab-text p {
+		font-size: 20px;
+	}
+
+	.carla {
+		width: 70%;
+	}
+}

@@ -1,0 +1,673 @@
+@import url(/assets/fonts/Futura/stylesheet.css);
+@import url(/assets/fonts/OpenSans/stylesheet.css);
+
+/***** modal design ******/
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+label {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.modal-content {
+  border: 3px solid #ff9d28;
+}
+
+.disclaimer p {
+	font-size: 12px;
+}
+
+.close-btn {
+	position: absolute;
+    z-index: 1;
+    right: -10px;
+    top: -13px;
+    background: #ff9d28;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.modal-dialog .btn-default:hover, .modal-dialog .btn-default:focus {
+	background: #ff9d28 !important;
+}
+
+.modal-logo {
+	width: 70px;
+    position: absolute;
+    z-index: 2;
+    left: -20px;
+    top: -15px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+}
+
+#modalcompare {
+	padding: 0 20px !important;
+}
+.no-plans {
+	display: none;
+	margin: 20px;
+	font-weight: bold;
+	font-family: "Raleway-Medium";
+}
+.cp-quote-navbar .navbar-brand{
+	line-height: 2.5;
+	color: white !important;
+	font-family: "Raleway-Medium";
+}
+.larger {
+	font-size: 18px !important;
+	font-weight: 600;
+}
+#modalcompare .modal-title {
+	font-weight: bold;
+	margin-left: 35px;
+}
+.filter-header {
+	z-index: 999;
+}
+.filter-header.affix {
+	top: 50px;
+}
+.sorter-input-group > .input-group-addon {
+	padding: 6px;
+}
+.toggle.btn-xs {
+	min-height: 20px !important;
+}
+.calculators-container #cal_btn li.active a{
+	background: rgb(255,138,0);
+	color: white;
+	font-weight: bold;
+}
+.state-not-supported h1,
+.state-not-supported h2 {
+	font-weight: bold;
+	font-family: "Raleway-Medium";
+}
+.plan-total-wrapper {
+	font-size: 12px !important;
+	color: #b3b3b3;
+	font-weight: 600;
+}
+.calculators-container #cal_btn li a{
+	background: white;
+	border: 1px solid rgb(255, 138, 0);
+	color:  rgb(255, 138, 0);
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+#credit_card_other {
+	margin-top: 15px;
+}
+.confirm-wrapper > img {
+	margin: auto;
+}
+.enroll-container {
+	font-size: 16px;
+}
+.text-cyan {
+	font-weight: bold;
+	color: #0093c7;
+}
+.payment-disclaimer {
+	border: 1px solid rgb(255, 138, 0);
+	padding: 15px;
+}
+.btn-order-print {
+	font-family: "Raleway";
+}
+.date-dropdowns span.select2 {
+	width: 33.33333333333333% !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 34px !important;
+}
+.select2-container .select2-selection--single {
+	height: 34px !important;
+}
+
+#step5_1 {
+	padding-bottom: 60px;
+}
+.button-row > div {
+	padding-right: 60px !important;
+}
+.datepicker table tr td span.disabled,
+.datepicker table tr td span.disabled:hover {
+	color: #555 !important;
+	cursor: not-allowed !important;
+	background: rgba(255, 0, 0, 0.5) !important;
+}
+.applicant-type.panel-title {
+	display: inline-block;
+	min-height: 16px;
+	padding-left: 30px;
+}
+.applicant-type.panel-title:before {
+	font-family: "FontAwesome";
+	content: "\f147";
+	position: absolute;
+	left: 30px;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+}
+.applicant-type.panel-title.collapsed:before {
+	content: "\f196";
+}
+.applicant-footer {
+	background: #ff8a00;
+  height: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	z-index: 9999;
+	padding: 10px !important;
+	transition: height .3s linear;
+	-webkit-transition: height .3s linear;
+}
+.applicant-footer.big-footer {
+	height: 150px;
+}
+
+.applicant-footer .row-continue {
+	margin-top: 5px;
+}
+.text-agree {
+	font-size: 20px;
+	font-weight: bold;
+}
+.checkout-discount {
+	font-size: 24px;
+	font-weight: bold;
+}
+#modalcompare .modal-dialog {
+	width:100%;
+}
+#modalcompare .modal-body {
+	padding: 15px 0;
+}
+#modalcompare .modal-body > div{
+	padding: 0;
+}
+.compare-logo > img{
+	height: 50px;
+	margin: auto;
+}
+#modalcompare .modal-body > div {
+	padding-left: -15px;
+	padding-right: -15px;
+}
+
+.compare-table .cmp-plan-resources > p {
+	font-size: 12px;
+	line-height: 1;
+	margin: 0 0 5px;
+}
+
+.compare-table .cmp-plan-resources > button > p {
+	margin: 0;
+}
+.compare-table thead{
+	background-color: #ff8a00;
+}
+.compare-table thead td {
+	vertical-align: middle !important;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Raleway-Medium";
+
+}
+.compare-table tbody td {
+	vertical-align: middle !important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	max-width: 130px;
+}
+.compare-table tbody td.cmp-plan-urls {
+	width: 200px;
+}
+#modalcompare .bg-blue {
+	background-color: #043585;
+}
+.cmp-plan-wrapper .cmp-plan-insurer {
+	color: white;
+	border:none;
+	font-weight: bold;
+	font-family: "Raleway-Bold";
+	font-size: 16px;
+	width: 150px;
+}
+
+.cmp-plan-wrapper > div.col-cus-11-col {
+	font-weight: 500;
+	font-family: "Raleway-Medium";
+	font-size: 16px;
+}
+.col-cus-11-col {
+	width: 9.090909090909091%;
+	float: left;
+	padding: 5px 10px;
+}
+.stepwiz {
+	min-height: 0;
+}
+
+#plandetails, #modalcompare {
+	font-family: "Raleway-medium";
+}
+#plandetails.in {
+	background-color: rgba(0,0,0,0.77) !important;
+}
+#plandetails .plan-details-img > img{
+	height: 50px;
+	margin: auto;
+}
+#plandetails .modal-title{
+	color:white !important;
+}
+#plandetails .modal-header[data-metal="bronze"] {
+	background-color: #c98a26 !important;
+}
+#plandetails .modal-header[data-metal="silver"] {
+	background-color: silver !important;
+}
+#plandetails .modal-header[data-metal="gold"] {
+	background-color: gold !important;
+}
+#plandetails .modal-header[data-metal="platinum"] {
+	background-color: #e5e4e2 !important;
+}
+#plandetails .modal-header[data-metal="catastrophic"] {
+	background-color: #ff0000 !important;
+}
+
+.confirm-name {
+	text-transform: capitalize;
+}
+.text-agreement {
+  text-align: justify;
+  padding: 25px;
+  border: 1px solid #e3e3e3;
+  margin: 10px;
+}
+.text-agreement > .form-group div {
+    margin-bottom: 20px;
+}
+/* Applicants Styles */
+.applicant_language > .btn,
+.applicant_health_coverage > .btn,
+.applicant_gender > .btn,
+.btn-income-approx > .btn,
+.us-citizen > .btn,
+.indian-alaskan-citizen > .btn,
+.naturalized-citizen > .btn,
+.btn-question > .btn,
+.agreement1 > .btn,
+.agreement2 > .btn,
+.agreement3 > .btn {
+	margin: 0 2px;
+	color: black;
+	font-weight: 600;
+	background-color: #e9e9e9;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.applicant-text-header {
+	font-family: "Raleway-Medium";
+	font-weight: bold;
+	color: #ff8a00;
+}
+.applicant_language > .btn.active,
+.applicant_health_coverage > .btn.active,
+.applicant_gender > .btn.active,
+.btn-income-approx > .btn.active,
+.us-citizen > .btn.active,
+.indian-alaskan-citizen > .btn.active,
+.naturalized-citizen > .btn.active,
+.btn-question > .btn.active,
+.agreement1 > .btn.active,
+.agreement2 > .btn.active,
+.agreement3 > .btn.active {
+	background-color: #ff8a00 !important;
+}
+.btn-sss,
+.btn-sss-diff-name {
+	margin-top: 25px;
+}
+.upper-row > .left .estimated{
+	margin-top: 20px;
+}
+.upper-row .qualified-price {
+	margin-top: -10px;
+}
+.fnt-raleway-m {
+	font-family: "Raleway-Medium";
+}
+#step4,
+#step4 #step4_1 {
+	padding: 0;
+}
+.select2 {
+	width: 100% !important;
+}
+
+.select {
+	font-size: 14px !important;
+}
+.pos-at-btm img {
+	height: 15px;
+}
+.text-bolder {
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+}
+.btn-enroll {
+	font-family: : "Open Sans", sans-serif;
+	font-weight: bold;
+}
+.scrollable-dropdown-menu .tt-menu {
+	overflow-y: auto;
+	min-height: auto;
+}
+.scrollable-dropdown-menu .empty-message {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+.scrollable-dropdown-menu#zip_code_typeahead .tt-menu {
+	max-height: 200px;
+}
+.scrollable-dropdown-menu#hospital_typeahead .tt-menu {
+	max-height: 250px;
+}
+.tt-menu,
+.tt-menu.tt-open {
+	width: 100%;
+}
+
+.form-control {
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.stepwizard-step p {
+	margin-top: 10px;
+}
+.stepwizard-row {
+	display: table-row;
+}
+.stepwizard-row .stepwizard-step > a.btn,
+.stepwizard-row .stepwizard-step:hover > a.btn{
+	border: none !important;
+}
+.stepwizard-row .stepwizard-step > a.done{
+	color: #fff;
+  background-color: #449d44;
+}
+.stepwizard {
+	display: table;
+	position: relative;
+	width: 50%;
+}
+.stepwizard-step a.btn-circle[disabled] {
+	opacity: 1 !important;
+}
+.stepwizard-row .stepwizard-step.active {
+	background-color: #449d44;
+}
+.stepwizard-row[data-done="1"]:before {
+	background: -webkit-linear-gradient(left, #449d44 20%, white 0%) !important;
+	background: -o-linear-gradient(left, #449d44 20%, white 0%) !important;
+	background: linear-gradient(to right, #449d44 20%, white 0%) !important;
+}
+.stepwizard-row[data-done="2"]:before {
+	background: -webkit-linear-gradient(to right, #449d44 45%, white 0%) !important;
+	background: -o-linear-gradient(to right, #449d44 45%, white 0%) !important;
+	background: linear-gradient(to right, #449d44 45%, white 0%) !important;
+}
+.stepwizard-row[data-done="3"]:before {
+  background: -webkit-linear-gradient(to right, #449d44 75%, white 0%) !important;
+  background: -o-linear-gradient(to right, #449d44 75%, white 0%) !important;
+  background: linear-gradient(to right, #449d44 75%, white 0%) !important;
+}
+.stepwizard-row[data-done="4"]:before {
+	background: -webkit-linear-gradient(to right, #449d44 95%, white 0%) !important;
+	background: -o-linear-gradient(to right, #449d44 95%, white 0%) !important;
+	background: linear-gradient(to right, #449d44 95%, white 0%) !important;
+}
+.stepwizard-row[data-done="0"]:before {
+	background: -webkit-linear-gradient(to right, #449d44 5%, white 0%);
+	background: -o-linear-gradient(to right, #449d44 5%, white 0%);
+	background: linear-gradient(to right, #449d44 5%, white 0%);;
+}
+.stepwizard-row:before {
+	bottom: 0;
+	content: " ";
+	height: 10px;
+	left: 35%;
+	position: absolute;
+	top: 10px;
+	width: 30%;
+	z-index: 0;
+}
+.stepwizard-step {
+	display: inline-block;
+	padding: 0 10px;
+	position: relative;
+	text-align: center;
+	width: auto;
+}
+.stepwizard-step > a.btn {
+	box-shadow: none;
+}
+.btn-circle {
+	transition: background .05s linear;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  height: 30px;
+  line-height: .9;
+  padding: 6px 0;
+  text-align: center;
+  width: 30px;
+}
+
+.navbar-brand {
+		margin: 0 auto !important;
+	}
+
+.cp-logo {
+	margin-top: 10px;
+}
+
+.app-btn-orange {
+	background-color: #ecedef;
+    color: black;
+    /*font-family: "Raleway-Thin";*/
+    text-align: left;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.5);
+}
+
+.app-btn-orange:hover,
+.app-btn-orange.active {
+	color: white !important;
+    background-color: #ff8a00 !important;
+}
+
+.app-btn-orange.active span.icon-checked{
+	background: url('/assets/icons/quotes/check.png');
+	background: url(/assets/icons/quotes/check.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	line-height: 1.42857143;
+	display: block !important;
+}
+
+.applicant-wrapper.cloned {
+	display: block !important;
+}
+
+.q-header {
+	color: #23527c;
+	font-size: 16px;
+	font-weight: 600;
+}
+/*step 5_3*/
+.paydirect {
+	text-align: center;
+	font-weight: bolder;
+}
+
+/*step 5_3*/
+
+
+#step5 .btn-block {
+	white-space: inherit;
+}
+
+
+@media screen and (max-width: 1163px) {
+	.stepwizard {
+		margin: 0 auto !important;
+		margin-left: 0px !important;
+		width: 100%;
+	}
+
+	.stepwizard-row:before {
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		right: 0;
+		width: 200px;
+	}
+
+	.navbar-brand {
+		margin: 0 auto !important;
+	}
+
+	.cp-logo {
+		margin-top: 10px;
+	}
+}
+
+#agreementModal .modal-body {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+@media screen and (max-width: 767px) {
+	.cp-quote-navbar {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media screen and (max-width: 519px) {
+	.stepwizard {
+		width: 100%;
+	}
+	.button-row > div {
+		padding-right: 40px !important;
+	}
+	.applicant-footer {
+		padding: 0;
+	}
+	.applicant-footer .right,
+	.applicant-footer .left {
+		text-align: center;
+	}
+	.applicant-footer .applicant-btns {
+		display: inline-block;
+	}
+	#expiry_month,
+	#expiry_year,
+	#cvv-cid {
+		width: 100% !important;
+	}
+	ul#payment-type-tab li {
+		width: 100%;
+		display: inline-block;
+		float: left;
+	}
+	ul#payment-type-tab li:last-child a img {
+		width: 62%;
+		height: 31px !important;
+	}
+	.btn-visits > label.btn{
+		width: 32.33333% !important;
+	}
+	.btn-conditions > label.btn {
+		width: 100% !important;
+	}
+	.btn-sss label.btn{
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	#expiry_month {
+		margin-bottom: 10px !important;
+	}
+}
+
+
+@media screen and (max-width: 1023px) {
+
+	.compare-table {
+		width: 100%;
+	}
+
+	.compare-table thead {
+		display: none;
+	}
+
+	.compare-table tr {
+
+	}
+
+	.compare-table tr:nth-of-type(2n) {
+		background-color: inherit;
+	}
+
+	.compare-table td:first-child {
+		font-weight: bold;
+		font-size: 1em;
+		padding: 5px;
+		width: 100%;
+		margin-top: 20px;
+	}
+		
+
+	.compare-table tbody td {
+		display: block;  
+		text-align:center;
+		max-width: 100%;
+	}
+
+	.compare-table tbody td:before {
+		content: attr(data-th); 
+		display: block;
+		text-align:center; 
+		margin-right: 5px;
+		color: #043585;
+		font-weight: 700;
+	}
+
+	.compare-table tbody td.cmp-plan-urls {
+		width: 100%;
+	}
+}

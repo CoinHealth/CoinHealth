@@ -1,0 +1,157 @@
+#doctor .first-row {
+	background: #1087b2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#doctor .second-row {
+	background: #dff7fe;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#doctor .third-row {
+	background: #1087b2;
+	margin-top: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#doctor .fourth-row {
+	background: #dff7fe;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.no-padding {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+#doctor .title {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#doctor .subtitle {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#doctor .address {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+#doctor .miles {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.yellow {
+	color: #ffa200;
+}
+
+#doctor .title-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+#doctor .subtitle-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#doctor .address-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+#doctor .miles-dark {
+	color: #555;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+.view-more {
+	color: #023882;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.img-med {
+	width: 180px;
+}
+
+@media screen and (max-width: 480px) {
+	#doctor .title {
+		color: #fff;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		font-size: 35px;
+	}
+
+	#doctor .subtitle {
+		color: #fff;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	#doctor.title-dark {
+		color: #555;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		font-size: 35px;
+	}
+
+	#doctor .subtitle-dark {
+		color: #555;
+		font-family: 'Raleway', sans-serif;
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	.img-med {
+		width: 60%;
+	}
+
+	.img-full {
+		width: 60%;
+	}
+}

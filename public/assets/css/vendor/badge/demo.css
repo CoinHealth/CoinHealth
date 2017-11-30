@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,600,700,400);
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #cae4b6;
+	color: #c94e50;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: 'Raleway', Arial, sans-serif;
+}
+
+a, button {
+	color: #74716D;
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover, a:focus {
+	color: #c94e50;
+	outline: none;
+}
+
+button {
+	padding: 1em 2em;
+	outline: none;
+	font-weight: 600;
+	border: none;
+	color: #fff;
+	background: #e05d08;
+}
+
+.content {
+	max-width: 1000px;
+	padding: 0 1em;
+	margin: 0 auto;
+	text-align: center;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.button-wrap {
+	padding: 2.5em 0 0;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+button.trigger {
+	background: #c94e50;
+	color: #fff;
+	border: none;
+}

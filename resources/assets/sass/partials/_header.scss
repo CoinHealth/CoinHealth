@@ -1,0 +1,160 @@
+.main-header {
+	position:fixed;
+	height: auto;
+	width: 100%;
+	z-index:9;
+	top: 0;
+
+	.header {
+		background: rgba(255,255,255,0.2);
+		.main-cp-icon {
+			height: 45px;
+			padding: 2px;
+			
+				img {
+					margin: auto;
+					max-height: 95%;
+					margin-left: 50%;
+					@media screen and (max-width: 768px) {
+						margin-left: 40%;
+					}
+					@media screen and (max-width: 480px) {
+						margin-left: 25%;
+					}
+				}
+				@media screen and (max-width: 410px) {
+						width: 87%;
+				}
+		}
+
+		.btn-logout {
+			margin-top: 10px;
+
+			@media screen and (max-width: 1024px) {
+				float: right;
+			}
+			@media screen and (max-width: 480px) {
+				display: none;
+			}
+		}
+
+		.btn-group {
+			display: none;
+			margin: 0px;
+		    float: right;
+
+		    .dropdown-menu {
+		      	left: auto;
+		      	right: 0;
+		      	width: auto;
+		      	text-align: center;
+			    color: black;
+		    }
+
+			.button_container {
+				position: relative;
+				top: 5%;
+				right: 2%;
+				width: 20px;
+				cursor: pointer;
+				z-index: 99;
+				transition: opacity .25s ease;
+				margin-top: 15px;
+
+				label {
+					span {
+						background: $orange;
+						border: none;
+						height: 3px;
+						width: 100%;
+						position: absolute;
+						top: 0px;
+						left: 0;
+						transition:  all .35s ease;
+						cursor: pointer;
+					    
+					    &:nth-of-type(2) {
+					      top: 5px;
+					    }
+					    
+					    &:nth-of-type(3) {
+					      top: 10px;
+					    }
+
+					}
+				}
+
+				&:hover {
+			    	opacity: .7;
+			  	}
+
+				&[aria-expanded="true"] {
+					label {
+						span {
+							width: 30%;
+							left: 7px;
+							height: 20px;
+							margin-top: -15px;
+						}
+					}
+				    .top {
+				      transform: translateY(10px) translateX(0) rotate(45deg);
+				      background: $orange;
+				    }
+				    .middle {
+				      opacity: 0;
+				      background: $orange;
+				    }
+				    
+				    .bottom {
+				      transform: translateY(0px) translateX(0) rotate(-45deg);
+				      background: $orange;
+				    }
+			 	}
+			}
+
+			.dropdown-menu {
+				background-color: $nightblue;
+				.dropdown-item {
+					display: block;
+					padding: 10px 150px;
+				    color: $white;
+				    font-weight: 700;
+
+
+				    &:hover {
+				    	background-color: $orange;
+				    }
+
+				    &.active {
+				    	background-color: $orange;
+
+				    }
+
+				}
+			}
+
+			@media screen and (max-width: 480px) {
+				float: right;
+				display: block;
+			}
+
+			@media screen and (max-width: 410px) {
+				float: right;
+				display: block;
+				label {
+					span {
+						width: 25%;
+					}
+				}
+			}
+
+
+		}
+
+
+	}
+
+
+}
+

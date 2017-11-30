@@ -1,0 +1,116 @@
+@import url(/assets/fonts/Lato/stylesheet.css);
+@font-face {
+	font-family:"SunriseInternationalDemo";
+	src:url("/assets/fonts/SunriseInternationalDemo.otf?")
+		format("eot"),url("/assets/fonts/SunriseInternationalDemo.otf")
+		format("woff"),url("/assets/fonts/SunriseInternationalDemo.otf")
+		format("truetype"),url("/assets/fonts/SunriseInternationalDemo.svg")
+		format("svg");
+	font-weight:bold;
+	font-style:oblique;
+}
+.nav li.back > a > img{
+  display: inline-block;
+  width: 50px;
+}
+.nav li > a {
+  background: #ff931d;
+  padding: 20px;
+  color: white;
+  font-family: "Lato-Semibold";
+  font-size: 14px;
+  line-height: 1.2;
+}
+.nav li.back > a {
+  color: white;
+  background: #ff931d !important;
+  padding: 0px;
+  padding-top: 20px;
+  padding-bottom: 10px
+}
+.nav li:hover:not(.back) > a,
+.nav li.active:not(.back) > a{
+  background: white;
+  color: #336fb2;
+}
+.tab-header {
+  background-color: #00eae2;
+  background-image: url(/assets/icons/charitablecover.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 30px;
+}
+.tab-header > img{
+  margin: auto;
+}
+.tab-body {
+  padding: 20px;
+}
+.tab-body p{
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  color: #313131;
+}
+.text-shared {
+  color: #336fb2;
+  font-family: "SunriseInternationalDemo";
+  font-size: 40px;
+}
+#contributions .tab-body-footer {
+/*  height: 300px;
+  width: 100%;
+  background: url(/assets/icons/learn/charitable-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;*/
+}
+.h3-title {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav-tabs > li > a {
+  padding-top: 35px;
+  padding-bottom: 0px;
+  height: 90px;
+}
+
+.nav-tabs.nav-justified>li>a {
+  border-radius: 0px 0px 0 0;
+}
+
+#contributions .tab-body {
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+
+.pad-right {
+  padding-right: 20px;
+}
+
+
+@media screen and (max-width: 991px) {
+  .nav-tabs.nav-justified>li {
+    float: left;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-tabs>li {
+    margin-bottom: -6px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tab-body p {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .nav-tabs.nav-justified>li {
+    width: 100%;
+  }
+}

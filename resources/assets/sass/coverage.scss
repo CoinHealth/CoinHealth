@@ -1,0 +1,120 @@
+@import 'partials/effects';
+@import 'partials/variable';
+@import 'partials/careparrot-card';
+.parent {
+    .top {
+        text-align: center !important;
+
+        img {
+            margin: auto;
+            height: 150px;
+        }
+        h2 {
+            text-align: center;
+            color: #454545;
+            font-family: 'Futura';
+            font-weight: 900;
+            letter-spacing: 5px;
+            font-size: 3em;
+        }
+    }
+    .middle {
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: left;
+        }
+    }
+    .bottom {
+        text-align: center;
+    }
+    .btn {
+        border-radius: 30px;
+        display: block;
+        margin: 5px auto;
+        width: 40%;
+        background-color: #597caa;
+        border-color: #364c68;
+        color: white;
+
+        &:hover {
+            background-color: #ff8a00;
+            border-color: #995200;
+        }
+    }
+}
+
+#coverage {
+    .top {
+        h2 {
+            font-size: 2em;
+        }
+    }
+
+    .middle {
+    }
+
+    .bottom {
+        .btn {
+            font-size: 14px;
+            display: inline-block;
+            margin: 15px 10px;
+            width: 50%;
+        }
+    }
+}
+#coverage-form {
+    .middle {
+        p {
+            text-align: center;
+        }
+
+        .btn {
+            margin-bottom: 15px;
+            width: 100%;
+
+            &.btn-next {
+                width: 50%;
+            }
+        }
+        .third {
+            img {
+                height: 100px;
+            }
+        }
+        .fourth {
+            h2 {
+                color: #ff931d;
+                font-weight: bold;
+            }
+
+            .card-wrapper {
+                background: #f6f5f5;
+                padding: 20px 15px;
+                border: 1px solid #444;
+                margin-bottom: 15px;
+                p {
+                    text-align: left;
+                    &.card-label {
+                        font-weight: 100;
+                    }
+                }
+            }
+        }
+        .fifth {
+            text-align: center;
+
+            h1 {
+                color: #ff931d;
+                font-weight: bold;
+            }
+            image {
+                height: 200px;
+                margin: 10px;
+            }
+            .btn {
+                margin-top: 30px;
+            }
+        }
+    }
+}

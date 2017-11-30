@@ -1,0 +1,123 @@
+@import url(/assets/fonts/Futura/stylesheet.css);
+@import url(/assets/fonts/OpenSans/stylesheet.css);
+
+html {
+    height: 100%;
+}
+
+body {
+	background: #fb9116;
+	width: 100%;
+    height: 100%;
+}
+
+.contact-container {
+	padding-bottom: 50px;
+	background: #fb9116;
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+	font-family: 'Futura Hv BT', sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+	margin-top: 80px;
+	margin-bottom: 0px;
+}
+
+.subtext {
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+input.form-control {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto;
+}
+
+textarea.form-control {
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    height: auto;
+}
+
+.text-center {
+	text-align: center;
+	padding-top: 10px;
+}
+
+.btn-send {
+	background: #023780;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-send:hover, .btn-send:focus {
+    background: #ebebeb;
+    color: #023780;
+    text-decoration: none;
+}
+
+.call-txt {
+	color: #fff;
+	margin-top: 40px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'OpenSans', sans-serif;
+}
+
+a[href^=tel] { color: inherit; text-decoration: none; }
+
+.back-link {
+	background: #ebebeb;
+	color: #023780;
+	display: block;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'OpenSans', sans-serif;
+	width: 230px;
+	margin: auto;
+	padding: 8px 10px;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.back-link:hover, .back-link:focus {
+    background: #023780;
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+.reponse {
+	color: white;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 10px;
+	text-align: center;
+}

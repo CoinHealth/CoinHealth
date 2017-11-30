@@ -1,0 +1,162 @@
+html, body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+.news-container {
+  background: url(/assets/icons/newsbg.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
+.div-yellow {
+	background: #e67f22;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+.div-yellow .media {
+	width: 80%;
+	margin: auto;
+}
+
+.div-yellow .media-middle {
+    width: 50%;
+}
+
+.title-media {
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 65px;
+	text-transform: uppercase;
+}
+
+.div-yellow .media-body {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	padding-top: 7px;
+}
+
+.user-blog {
+	margin-top: 30px;
+	clear: both;
+}
+
+.user-blog img {
+	width: 50px;
+	height: 50px;
+}
+
+.user-blog h4 {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.date {
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	color: #6d6d6d;
+}
+
+.desc {
+	color: #000;
+	font-family: 'Raleway',sans-serif;
+}
+
+.next {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	font-weight: 700; 
+}
+
+.modal-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.modal-header span {
+	color: #337ab7;
+	font-size: 18px;
+	font-weight: 700; 
+}
+
+.read {
+	font-family: 'Raleway',sans-serif;
+}
+
+.social {
+	color: #337ab7;
+}
+
+.back-a {
+	text-align: center;
+}
+
+.back-a img {
+	width: 30px;
+	margin-top: -65px;
+}
+
+@media screen and (max-width: 1194px) {
+	.div-yellow .media-body {
+		font-size: 18px;
+		padding-top: 12x;
+	}
+
+	.title-media {
+		font-size: 54px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.div-yellow .media-body {
+		font-size: 13px;
+		padding-top: 18px;
+	}
+
+	.title-media {
+		font-size: 50px;
+	} 
+}
+
+@media screen and (max-width: 991px) {
+	.div-yellow .media-left {
+		display: block;
+    	text-align: center;
+	}
+
+	.div-yellow .media-body {
+		padding-top: 0px;
+	}
+
+	.title-media {
+		font-size: 45px;
+	}
+
+	.div-yellow .media-middle {
+	    width: 100%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.title-media {
+	    font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	.div-yellow .media {
+		width: 100%;
+	}
+}

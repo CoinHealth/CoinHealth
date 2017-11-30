@@ -1,0 +1,111 @@
+.sidebar-column {
+	.upload-photo {
+        width: auto;
+        height: auto;
+        cursor: pointer;
+
+        .upload-img {
+	        width: 205px;
+	        max-height: 205px;
+	        height: auto;
+	        position: relative;
+	    }
+
+        &:hover .imgCaption {
+			display: block;
+		}
+
+		.imgCaption {
+		    position: absolute;
+		    top: 135px;
+		    left: 0;
+		    width: 100%;
+			display: none;
+		}
+
+		.imgCaption span {
+		   	color: white;
+		   	letter-spacing: -1px;
+		   	background: rgba(0, 0, 0, 0.7);
+			font-size: 15px;
+			padding: 20px 60px;
+		}
+    }
+
+	.name {
+		font-family: $futura;
+		font-weight: 400;
+		color: $darkgrey;
+		margin-top: 10px;
+		font-size: 24px;
+		margin-bottom: 0px;
+		text-transform: capitalize;
+	}
+
+	.plan {
+		color: $darkgrey;
+		font-weight: 400;
+	}
+
+	.status {
+		margin-top: 15px;
+		margin-bottom: 20px;
+
+		.date {
+			font-weight: 700;
+		}
+	}
+
+	.btn-orange {
+		background: $orange;
+		color: $white;
+		display: block;
+		font-size: 1em;
+		font-weight: 300;
+		padding: 10px;
+		text-align: center;
+		margin-bottom: 10px;
+		-webkit-transition: all 0.3s ease-in-out 0s;
+    	   -moz-transition: all 0.3s ease-in-out 0s;
+    	        transition: all 0.3s ease-in-out 0s;
+
+    	&:hover {
+    		background: $black;
+    	}
+
+    	@media screen and (max-width: 991px) {
+    		font-size: 0.875em;
+    	}
+	}
+
+	.rating {
+		margin-top: 20px;
+
+		.num {
+			font-weight: 700;
+			display: block;
+		}
+
+		.cat {
+			display: block;
+			font-size: 0.875em;
+		}
+	}
+
+	@media screen and (max-width: 760px) {
+		.name {
+			font-size: 18px;
+		}
+		.status {
+			font-size: 12px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		.div-buttons {
+			display: none;
+		}
+	}
+
+
+}

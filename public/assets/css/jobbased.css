@@ -1,0 +1,273 @@
+.main-header {
+	position:fixed;
+	height: auto;
+	width: 100%;
+	z-index:9;
+	top: 0;
+}
+.main-header .main-cp-icon {
+	height: 45px;
+	padding: 2px;
+	background: rgba(255,255,255,0.8);
+}
+.main-header .main-cp-icon img{
+	margin: auto;
+	max-height: 100%;
+}
+
+
+/***loss health ****/
+.loss-health-2-container {
+	background: url(/assets/icons/faqparrot.png) no-repeat; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	width: 100%;
+  	height: 830px;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
+}
+
+.loss-title {
+	text-align: center;
+}
+
+.loss-title .p-subtitle {
+	color: #000;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 50px;
+}
+
+.loss-title .p-title {
+	color: #ff931d;
+	font-family: Impact, sans-serif;
+	font-size: 55px;
+	text-transform: uppercase;
+}
+
+.btn-div-loss {
+	text-align: center;
+}
+
+.a-loss-5, .a-loss-4, .a-loss-3, .a-loss-2, .a-loss-1, .a-loss-6  {
+	color: #009cff;
+	/*background: #c6c6c6;*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 300px;
+	display: inline-block;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	/*border-radius: 5px;*/
+	margin-bottom: 20px;
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
+}
+
+.a-loss-1:hover, .a-loss-2:hover, .a-loss-3:hover, .a-loss-4:hover, .a-loss-5:hover, .a-loss-6:hover {
+	text-decoration: none;
+	/*background: #000;*/
+	color: #000;
+}
+
+.a-loss-1:focus, .a-loss-2:focus, .a-loss-3:focus, .a-loss-4:focus, .a-loss-5:focus, .a-loss-6:focus {
+	text-decoration: none;
+	color: #000;
+}
+
+.btn-loss .btn-close {
+	color: #000;
+	background: #cdcdcd;
+	padding: 5px 10px;
+	border-radius: 20px;
+	font-weight: 700;
+	font-family: 'Raleway',sans-serif;
+	font-size: 15px;
+	margin-left: 10px;
+	display: none;
+}
+
+.btn-loss .btn-close:hover, .btn-loss .btn-close:focus {
+	text-decoration: none;
+}
+
+.cp-col {
+	text-align: center;
+	margin-bottom: 20px;
+} 
+
+.btn-row-2 img {
+	width: 300px;
+}
+
+.btn-row-loss-6 {
+	display: none;
+}
+
+.btn-row-loss-5 {
+	display: none;
+}
+
+.btn-row-loss-4 {
+	display: none;
+}
+
+.btn-row-loss-3 {
+	display: none;
+}
+
+.btn-row-loss-2 {
+	display: none;
+}
+
+.btn-row-loss-1 {
+	display: none;
+}
+.btn-row-loss ul {
+	margin-left: 0px;
+}
+
+.btn-row-loss ul li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.btn-row-loss p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.btn-row-loss .p-loss {
+	font-size: 20px;
+	font-weight: 600;
+	color: #313131;
+}
+
+.btn-row-loss span {
+	font-weight: 700;
+}
+
+.bg-yellow {
+	background: #ff931d;
+	color: #fff;
+}
+
+.back-a a {
+	font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff931d;
+}
+
+.back-a img {
+	width: 30px;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.cp-logo {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.back-a {
+	margin-bottom: 30px;
+}
+
+.row-2 {
+	display: none;
+}
+
+.row-nav .back {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #ff931d;
+}
+
+.row-nav .next {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	color: #003a85;
+}
+
+.slider-nav img {
+	width: 30px;
+}
+
+@media screen and (min-width: 992px) {
+	.btn-row-2 {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 991px) {
+	.loss-health-2-container {
+		background: #fff;
+	}
+
+	.btn-row {
+		display: none;
+	}
+
+	.loss-title .p-subtitle {
+		margin-top: 120px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.btn-loss a {
+		width: 100%;
+	}
+
+	.btn-row-loss {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.btn-loss .btn-close {
+		margin-left: 0px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.date-div {
+		font-size: 16px;
+	}
+
+	.date-div .date {
+		font-size: 26px !important;
+	}
+
+	.info {
+		font-size: 25px;
+	}
+
+	.bottom-title {
+		font-size: 25px;
+	}
+}
+
+
+
+@media screen and (max-width: 340px) {
+	.loss-title .p-title {
+    	font-size: 40px;
+    }
+}

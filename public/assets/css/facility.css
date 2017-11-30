@@ -1,0 +1,77 @@
+@import url(/assets/fonts/Futura/stylesheet.css);
+@import url(/assets/fonts/OpenSans/stylesheet.css);
+
+.facility-container {
+	background: url('/assets/icons/facility.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+.facility-row {
+	margin-top: 130px;
+}
+.color-red {
+	color: #ff0000;
+}
+
+.title {
+
+}
+
+.title-span {
+	color: #444;
+	font-family: 'Futura Hv BT', sans-serif;
+	font-weight: 900;
+	font-size: 45px;
+	vertical-align: middle;
+}
+
+.text {
+	color: #444;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 2em;
+}
+
+.text-center {
+	text-align: center;
+	display: block;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.btn-blue {
+    background: #51a7fa;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 35px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.btn-blue:hover, .btn-blue:active {
+	text-decoration: none;
+	background: #023780;
+	color: #fff;
+}
+
+.not-now {
+	display: block;
+	margin: 15px auto;
+}
+
+@media screen and (max-width: 991px) {
+	.facility-container  {
+		background: #fff;
+	}
+}
+
+

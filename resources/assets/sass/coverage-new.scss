@@ -1,0 +1,17 @@
+@import 'partials/variable';
+@import 'partials/careparrot-card';
+#coverage {
+    .insurance-wrapper {
+        .insurance-card {
+            max-width: 250px;
+            max-height: 150px;
+        }
+    }
+    .cp-wrapper {
+
+    }
+ 	.form-header {
+ 		background: $defaultgrey;
+ 		border: 1px solid white;
+ 	}   
+}

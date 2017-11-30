@@ -1,0 +1,80 @@
+html, body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+.news-container {
+  background-image: url(/assets/icons/news-img.png);
+	background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 80%;
+  width: 100%;
+  height: 300px;
+	background-position: 50% center;
+}
+
+.pagestatus {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.title {
+	text-align: center;
+}
+
+.title p{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #337ab7;
+}
+.source {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	color: #337ab7;
+}
+.content p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+.title-help {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+	text-align: center;
+}
+
+.helpful {
+	padding-bottom: 100px;
+	clear: both;
+	text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+	.helpful .btn {
+		margin-bottom: 20px;
+		width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.content p {
+		font-size: 14px;
+	}
+}
+
+
+p a[href="#top"] {
+	font-size: 14px;
+}
