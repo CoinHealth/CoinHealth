@@ -31,38 +31,38 @@ return [
 
     'stripe' => [
 		'model'  => \App\Models\User::class,
-		'secret' => env('STRIPE_SECRET', 'sk_live_aAKqv9HrXvIcGATZo0bJUKC7'),
-        'key' => env('STRIPE_KEY', 'pk_live_GZP0zDdPfMLjoMb5cV2Urqsw'),
+		'secret' => env('STRIPE_SECRET'),
+        'key' => env('STRIPE_KEY'),
 	],
 
 	'facebook' => [
-		'client_id' => '192501274464058',
-		'client_secret' => 'eb1985c490d7752e149541ae4cbf0cd6',
-		'redirect' => 'http://careparrot.com/auth/login/callback/facebook'
+		'client_id' => env('FACEBOOK_ID'),
+		'client_secret' => env('FACEBOOK_SECRET'),
+		'redirect' => env('FACEBOOK_CALLBACK')
 	],
 
 	'google' => [
-		'client_id' => '1065149978335-nnk9a396dk56vd1ae6nuqqsh1ns7hm8l.apps.googleusercontent.com',
-		'client_secret' => 'INI1IOK2tl-u1nWO3Rn5IRsX',
-		'redirect' => 'http://careparrot.com/auth/login/callback/google'
+		'client_id' => env('GOOGLE_ID'),
+		'client_secret' => env('GOOGLE_SECRET'),
+		'redirect' => env('GOOGLE_CALLBACK')
 	],
 
 	'sendgrid' => [
-		'username' => env('SENDGRID_USERNAME', 'careparrot1'),
-        'password' => env('SENDGRID_PASSWORD', 'Parrotcare1'),
-		'api_key' => env('SENDGRID_API_KEY', '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'),
-		'ssl' => env('SENDGRID_SSL', false),
+		'username' => env('SENDGRID_USERNAME'),
+        'password' => env('SENDGRID_PASSWORD'),
+		'api_key' => env('SENDGRID_API_KEY'),
+		'ssl' => env('SENDGRID_SSL'),
 	],
 
 	'pusher' => [
-		'app_id' => env('PUSHER_ID','254291'),
-		'app_key' => env('PUSHER_KEY','9247c7abbaff7cfe69db'),
-		'app_secret' => env('PUSHER_SECRET','2d32db92370bfe186554'),
+		'app_id' => env('PUSHER_ID'),
+		'app_key' => env('PUSHER_KEY',
+		'app_secret' => env('PUSHER_SECRET'),
 		'cluster' => 'mt1',
 	],
 
     'hashid' => [
-        'salt' => env('HASH_SALT','c@r3p@rR0t'),
+        'salt' => env('HASH_SALT'),
     ],
 
 ];
